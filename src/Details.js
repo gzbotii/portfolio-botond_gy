@@ -35,10 +35,10 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "Botond Gyorgy",
+  tagline: "Ready to create effective solutions with an eye for detail. ",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `Adept at leveraging analytical and problem-solving skills to break down complex challenges and foster seamless collaboration across teams. Experienced in Software Development (React, Cypress & Python), streamlining processes, and creating comprehensive documentation.`,
 };
 
 // Enter your Social Media URLs here
@@ -50,8 +50,7 @@ export const socialMediaUrl = {
 };
 
 // Enter your Work Experience here
-export const workDetails = [
-  {
+export const workDetails = [{
     Position: "Frontend Web Developer",
     Company: `Company Name here`,
     Location: "Bengaluru",
@@ -75,8 +74,7 @@ export const workDetails = [
 ];
 
 // Enter your Education Details here
-export const eduDetails = [
-  {
+export const eduDetails = [{
     Position: "Frontend Development",
     Company: "Udemy, YouTube, Google, Medium",
     Location: "Online",
@@ -111,8 +109,7 @@ export const techStackDetails = {
 };
 
 // Enter your Project Details here
-export const projectDetails = [
-  {
+export const projectDetails = [{
     title: "Project title 1",
     image: projectImage1,
     description: `This is sample project description random things are here in description This is sample
