@@ -32,7 +32,7 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Botond Gyorgy",
-  tagline: "Ready to create effective solutions with an eye for detail. ",
+  tagline: "Technical Project Director. Passionate Web Developer.",
   img: profile,
   about: `Ready to create effective solutions with an eye for detail. 
 Adept at leveraging analytical and problem-solving skills to break down complex challenges and foster seamless collaboration across teams. Experienced in Software Development (React, Cypress & Python), streamlining processes, and creating comprehensive documentation.`,
