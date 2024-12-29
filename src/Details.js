@@ -10,6 +10,7 @@ import tailwind from "./assets/techstack/tailwind.png";
 import selenium from "./assets/techstack/selenium.png";
 import locust from "./assets/techstack/locust.png";
 import cypress from "./assets/techstack/cypress.png";
+import python from "./assets/techstack/python.png";
 import chatgpt from "./assets/techstack/chatgpt.png";
 import github from "./assets/techstack/github.png";
 import postman from "./assets/techstack/postman.png";
@@ -97,6 +98,8 @@ export const techStackDetails = {
   github,
   postman,
   figma,
+  vscode,
+  python
 };
 
 // Enter your Project Details here
