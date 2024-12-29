@@ -59,11 +59,11 @@ export const workDetails = [{
     Duration: "Aug 2024 - Present",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Position: "Technical Project Manager",
+    Company: `Matter of Form`,
+    Location: "London - remote",
+    Type: "Full time",
+    Duration: "Oct 2021 - Aug 2024",
   },
   {
     Position: "Internship",
