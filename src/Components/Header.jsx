@@ -14,7 +14,7 @@ function Header() {
       <div className="flex justify-between items-center py-2 md:py-6">
         <NavLink to="/">
           <img
-            className="w-14"
+            className="w-16"
             src={require("../assets/gzbotii.png")}
             alt="logo"
           />
