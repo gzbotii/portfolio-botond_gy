@@ -74,7 +74,7 @@ function Home() {
       <div className="mt-5 md:mt-0">
         <img
           ref={myImageRef}
-          className="w-1/2 md:ml-auto"
+          className="w-1/3 md:ml-auto"
           src={img}
           alt="Personal"
         />
