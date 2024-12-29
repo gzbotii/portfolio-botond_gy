@@ -53,8 +53,8 @@ function Home() {
   }, []);
 
   return (
-    <main className="container mx-auto max-width section md:flex justify-between items-center">
-      <div className="w-full md:w-7/10">
+    <main className="container mx-auto max-width section md:flex justify-between">
+      <div className="w-full md:w-7/10 text-left">
         <h1
           ref={h11}
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
@@ -71,10 +71,10 @@ function Home() {
           {tagline}
         </h2>
       </div>
-      <div className="w-1/2 md:w-full md:w-3/10 md:max-w-[30%] mt-[10vh] md:mt-0">
+      <div className="w-1/2 md:w-full md:w-3/10 md:max-w-[20%] md:ml-10 mt-[10vh] md:mt-0 md:text-left mx-auto md:mx-0">
         <img
           ref={myImageRef}
-          className="rounded-full md:w-auto md:ml-10"
+          className="rounded-full md:w-auto ml-auto md:ml-0 mr-auto md:mr-auto"
           src={img}
           alt="Profile"
         />
