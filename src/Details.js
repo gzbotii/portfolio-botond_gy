@@ -38,7 +38,8 @@ export const personalDetails = {
   name: "Botond Gyorgy",
   tagline: "Ready to create effective solutions with an eye for detail. ",
   img: profile,
-  about: `Adept at leveraging analytical and problem-solving skills to break down complex challenges and foster seamless collaboration across teams. Experienced in Software Development (React, Cypress & Python), streamlining processes, and creating comprehensive documentation.`,
+  about: `Ready to create effective solutions with an eye for detail. 
+Adept at leveraging analytical and problem-solving skills to break down complex challenges and foster seamless collaboration across teams. Experienced in Software Development (React, Cypress & Python), streamlining processes, and creating comprehensive documentation.`,
 };
 
 // Enter your Social Media URLs here
@@ -51,11 +52,11 @@ export const socialMediaUrl = {
 
 // Enter your Work Experience here
 export const workDetails = [{
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "Technical Project Director",
+    Company: `Octopus Digital`,
+    Location: "Gyergyószentmiklós - remote",
     Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Aug 2024 - Present",
   },
   {
     Position: "Internship",
