@@ -1,4 +1,3 @@
-// Enter all your detials in this file
 // Logo images
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
@@ -9,6 +8,7 @@ import react from "./assets/techstack/react.png";
 import vscode from "./assets/techstack/vscode.png";
 import tailwind from "./assets/techstack/tailwind.png";
 import selenium from "./assets/techstack/selenium.png";
+import locust from "./assets/techstack/locust.png";
 import cypress from "./assets/techstack/cypress.png";
 import chatgpt from "./assets/techstack/chatgpt.png";
 import github from "./assets/techstack/github.png";
@@ -88,12 +88,15 @@ export const eduDetails = [{
 
 // Tech Stack and Tools
 export const techStackDetails = {
-  react: react,
-  tailwind: tailwind,
-  vscode: vscode,
-  postman: postman,
-  github: github,
-  figma: figma,
+  react,
+  tailwind,
+  selenium,
+  locust,
+  cypress,
+  chatgpt,
+  github,
+  postman,
+  figma,
 };
 
 // Enter your Project Details here
