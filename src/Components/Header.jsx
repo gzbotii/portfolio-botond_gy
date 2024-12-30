@@ -47,7 +47,7 @@ function Header() {
             <NavLink
               to="/"
               onClick={toggleClass}
-              className="relative opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+              className="relative  font-medium opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
             >
               Home
             </NavLink>
@@ -56,7 +56,7 @@ function Header() {
             <NavLink
               to="/about"
               onClick={toggleClass}
-              className="relative opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+              className="relative  font-medium opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
             >
               About
             </NavLink>
@@ -65,7 +65,7 @@ function Header() {
             <NavLink
               to="/technologies"
               onClick={toggleClass}
-              className="relative opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+              className="relative  font-medium opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
             >
               Technologies
             </NavLink>
@@ -74,7 +74,7 @@ function Header() {
             <NavLink
               to="/projects"
               onClick={toggleClass}
-              className="relative opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+              className="relative  font-medium opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
             >
               Projects
             </NavLink>
@@ -83,7 +83,7 @@ function Header() {
             <NavLink
               to="/contact"
               onClick={toggleClass}
-              className="relative opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+              className="relative  font-medium opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
             >
               Contact
             </NavLink>
