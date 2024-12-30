@@ -1,16 +1,29 @@
-import React, {useState} from "react";
+import React, {useState, useRef, useEffect} from "react";
 import {NavLink} from "react-router-dom";
 import {socialMediaUrl} from "../Details";
 
-function Header() {
+const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navRef = useRef(null);
   const {linkedin, github, instagram} = socialMediaUrl;
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (navRef.current && !navRef.current.contains(event.target) && isOpen) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [isOpen]);
+
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <header className="container mx-auto md:flex justify-between py-2 max-width">
+    <header className="fixed px-5 top-0 w-full z-50 bg-white dark:bg-dark-mode">
       <div className="flex justify-between items-center py-2 md:py-6">
         <NavLink to="/">
           <img
@@ -38,9 +51,17 @@ function Header() {
         </div>{" "}
       </div>{" "}
       <nav
-        className={` ${
-          !isOpen ? "hidden" : null
-        } text-center md:flex justify-between`}
+        ref={navRef}
+        className={`
+          transform transition-all duration-300 ease-in-out
+          ${
+            isOpen
+              ? "opacity-100 max-h-[500px] backdrop-blur-sm bg-white/70 dark:bg-dark-mode/70 shadow-lg"
+              : "opacity-0 max-h-0 md:opacity-100 md:max-h-[500px]"
+          }
+          overflow-hidden
+          text-center md:flex justify-between
+        `}
       >
         <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
           <li className="pb-1 md:pb-0">
@@ -156,6 +177,6 @@ function Header() {
       </nav>
     </header>
   );
-}
+};
 
 export default Header;

@@ -78,9 +78,9 @@ export const eduDetails = [{
     Duration: "Jan 2022 - Present",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
+    Position: "Commination & PR",
+    Company: `Babes-Bolyai University`,
+    Location: "Kolozsvar",
     Type: "Full Time",
     Duration: "Aug 2020 - Present",
   },
