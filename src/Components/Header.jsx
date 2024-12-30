@@ -5,11 +5,17 @@ import {socialMediaUrl} from "../Details";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const navRef = useRef(null);
+  const hamburgerRef = useRef(null);
   const {linkedin, github, instagram} = socialMediaUrl;
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (navRef.current && !navRef.current.contains(event.target) && isOpen) {
+      if (
+        navRef.current &&
+        !navRef.current.contains(event.target) &&
+        !hamburgerRef.current.contains(event.target) &&
+        isOpen
+      ) {
         setIsOpen(false);
       }
     };
@@ -33,7 +39,11 @@ const Header = () => {
               alt="logo"
             />
           </NavLink>
-          <div onClick={toggleClass} className="cursor-pointer md:hidden">
+          <div
+            ref={hamburgerRef}
+            onClick={toggleClass}
+            className="cursor-pointer md:hidden"
+          >
             <svg
               className="stroke-dark-heading dark:stroke-white"
               width="25"
@@ -112,7 +122,7 @@ const Header = () => {
                 </NavLink>
               </li>
             </ul>
-            <ul className="flex justify-evenly items-center my-10 mx-10 md:my-0 md:space-x-5 md:mr-5">
+            <ul className="flex justify-evenly items-center my-10 mx-12 md:my-0 md:space-x-5 md:mr-5">
               <li>
                 <a
                   href={linkedin}
