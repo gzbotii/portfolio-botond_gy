@@ -8,7 +8,7 @@ function Footer() {
         <span className="font-medium"> gzbotii </span> with{" "}
         <span className="text-gradient font-medium"> React </span> &{" "}
         <span className="text-gradient font-medium"> Tailwind </span>{" "}
-        <span>and occasional debugging tears</span>
+        <span>and occasional debugging tears. Thanks to PwanMG.</span>
       </p>{" "}
     </footer>
   );
