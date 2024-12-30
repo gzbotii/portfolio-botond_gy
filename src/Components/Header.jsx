@@ -66,17 +66,19 @@ const Header = () => {
               md:flex md:items-center
               ${
                 isOpen
-                  ? "block opacity-100 max-h-[500px] backdrop-blur-sm bg-white/70 dark:bg-dark-mode/70 shadow-lg"
-                  : "hidden opacity-0 max-h-0"
+                  ? "translate-y-0 opacity-100 visible max-h-[800px]"
+                  : "translate-y-[-10px] opacity-0 invisible max-h-0"
               }
               transform transition-all duration-300 ease-in-out
-              md:opacity-100 md:max-h-full md:transform-none md:transition-none 
-              md:backdrop-blur-none md:bg-transparent md:shadow-none md:block
+              md:transform-none md:transition-none md:opacity-100 md:visible md:max-h-full
+              md:translate-y-0 md:backdrop-blur-none md:bg-transparent md:shadow-none
               text-center
+              backdrop-blur-sm bg-white/70 dark:bg-dark-mode/70
+              shadow-lg
             `}
           >
             <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
-              <li className="pb-4 md:pb-0">
+              <li className="pb-4 md:pb-0 text-lg">
                 <NavLink
                   to="/"
                   onClick={toggleClass}
@@ -85,7 +87,7 @@ const Header = () => {
                   Home
                 </NavLink>
               </li>
-              <li className="pb-4 md:pb-0">
+              <li className="pb-4 md:pb-0 text-lg">
                 <NavLink
                   to="/about"
                   onClick={toggleClass}
@@ -94,7 +96,7 @@ const Header = () => {
                   About
                 </NavLink>
               </li>
-              <li className="pb-4 md:pb-0">
+              <li className="pb-4 md:pb-0 text-lg">
                 <NavLink
                   to="/technologies"
                   onClick={toggleClass}
@@ -103,7 +105,7 @@ const Header = () => {
                   Technologies
                 </NavLink>
               </li>
-              <li className="pb-4 md:pb-0">
+              <li className="pb-4 md:pb-0 text-lg">
                 <NavLink
                   to="/projects"
                   onClick={toggleClass}
@@ -112,7 +114,7 @@ const Header = () => {
                   Projects
                 </NavLink>
               </li>
-              <li>
+              <li className="pb-4 md:pb-0 text-lg">
                 <NavLink
                   to="/contact"
                   onClick={toggleClass}
