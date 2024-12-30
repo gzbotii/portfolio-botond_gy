@@ -40,10 +40,9 @@ Adept at leveraging analytical and problem-solving skills to break down complex 
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
+  linkedin: "https://www.linkedin.com/in/gyorgy-botond/",
   github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  instagram: "https://www.instagram.com/gzbotii/",
 };
 
 // Enter your Work Experience here

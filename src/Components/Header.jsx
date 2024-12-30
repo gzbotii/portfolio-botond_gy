@@ -4,7 +4,7 @@ import {logos, socialMediaUrl} from "../Details";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const {linkdein, github, twitter} = socialMediaUrl;
+  const {linkedin, github, instagram} = socialMediaUrl;
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
@@ -44,50 +44,81 @@ function Header() {
       >
         <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
           <li className="pb-1 md:pb-0">
-            <NavLink to="/" onClick={toggleClass}>
-              Home{" "}
-            </NavLink>{" "}
-          </li>{" "}
+            <NavLink
+              to="/"
+              onClick={toggleClass}
+              className="relative opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+            >
+              Home
+            </NavLink>
+          </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/about" onClick={toggleClass}>
-              About{" "}
-            </NavLink>{" "}
-          </li>{" "}
+            <NavLink
+              to="/about"
+              onClick={toggleClass}
+              className="relative opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+            >
+              About
+            </NavLink>
+          </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/technologies" onClick={toggleClass}>
-              Technologies{" "}
-            </NavLink>{" "}
-          </li>{" "}
+            <NavLink
+              to="/technologies"
+              onClick={toggleClass}
+              className="relative opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+            >
+              Technologies
+            </NavLink>
+          </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/projects" onClick={toggleClass}>
-              Projects{" "}
-            </NavLink>{" "}
-          </li>{" "}
+            <NavLink
+              to="/projects"
+              onClick={toggleClass}
+              className="relative opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+            >
+              Projects
+            </NavLink>
+          </li>
           <li>
-            <NavLink to="/contact" onClick={toggleClass}>
-              Contact{" "}
-            </NavLink>{" "}
-          </li>{" "}
-        </ul>{" "}
+            <NavLink
+              to="/contact"
+              onClick={toggleClass}
+              className="relative opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+            >
+              Contact
+            </NavLink>
+          </li>
+        </ul>
         <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">
           <li>
-            <a href={twitter} target="_blank" rel="noreferrer noopener">
+            <a
+              href={instagram}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="group"
+            >
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 90 90"
                 width="32"
                 height="32"
-                viewBox="0 0 32 32"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+                className="dark:fill-light-heading fill-dark-heading transition-all duration-300 group-hover:invert"
               >
-                <path d="M16.875 1.875C8.59152 1.875 1.875 8.59152 1.875 16.875C1.875 25.1585 8.59152 31.875 16.875 31.875C25.1585 31.875 31.875 25.1585 31.875 16.875C31.875 8.59152 25.1585 1.875 16.875 1.875ZM24.0837 13.1819C24.0937 13.3393 24.0937 13.5033 24.0937 13.6641C24.0937 18.5792 20.3504 24.2411 13.51 24.2411C11.4007 24.2411 9.44531 23.6283 7.79799 22.5737C8.09933 22.6071 8.38728 22.6205 8.69531 22.6205C10.4364 22.6205 12.0368 22.0312 13.3125 21.0335C11.6786 21 10.3058 19.9286 9.83705 18.4554C10.4096 18.5391 10.9252 18.5391 11.5145 18.3884C10.6732 18.2175 9.91699 17.7605 9.37438 17.0953C8.83178 16.43 8.53623 15.5973 8.53795 14.7388V14.692C9.03013 14.9699 9.60938 15.1406 10.2154 15.1641C9.70595 14.8245 9.28814 14.3645 8.99903 13.8249C8.70993 13.2852 8.55845 12.6825 8.55804 12.0703C8.55804 11.3772 8.73884 10.7444 9.06362 10.1953C9.99744 11.3449 11.1627 12.2851 12.4837 12.9548C13.8047 13.6245 15.2518 14.0088 16.731 14.0826C16.2054 11.5547 18.0938 9.50893 20.3638 9.50893C21.4353 9.50893 22.3996 9.95759 23.0792 10.6808C23.9196 10.5234 24.7232 10.2087 25.4397 9.78683C25.1618 10.6473 24.5792 11.3739 23.8058 11.8326C24.5558 11.7522 25.279 11.5446 25.9487 11.2533C25.4431 11.9967 24.8103 12.6562 24.0837 13.1819Z" />
-              </svg>{" "}
-            </a>{" "}
-          </li>{" "}
+                <path d="M60.961 31.655c0-1.437-1.165-2.602-2.602-2.602s-2.602 1.165-2.602 2.602 1.165 2.602 2.602 2.602 2.602-1.165 2.602-2.602z" />
+                <path d="M45 33.079c-6.584 0-11.921 5.337-11.921 11.921 0 1.646.334 3.214.937 4.64.603 1.426 1.476 2.711 2.555 3.789 2.157 2.157 5.138 3.492 8.43 3.492s6.272-1.334 8.43-3.492c1.079-1.079 1.952-2.363 2.555-3.789.603-1.426.937-2.994.937-4.64 0-6.584-5.337-11.921-11.921-11.921z" />
+                <path d="M45 0C20.147 0 0 20.147 0 45s20.147 45 45 45 45-20.147 45-45S69.853 0 45 0zM70 55.238C70 63.391 63.391 70 55.238 70H34.762C26.609 70 20 63.391 20 55.238V34.762c0-3.057.929-5.897 2.521-8.253C25.174 22.582 29.666 20 34.762 20h20.477c5.095 0 9.588 2.582 12.241 6.508 1.592 2.356 2.521 5.196 2.521 8.253v20.477z" />
+              </svg>
+            </a>
+          </li>
           <li>
-            <a href={linkdein} target="_blank" rel="noreferrer noopener">
+            <a
+              href={linkedin}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="group"
+            >
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                className="dark:fill-light-heading fill-dark-heading transition-all duration-300 group-hover:invert"
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"
@@ -99,9 +130,14 @@ function Header() {
             </a>{" "}
           </li>{" "}
           <li>
-            <a href={github} target="_blank" rel="noreferrer noopener">
+            <a
+              href={github}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="group"
+            >
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                className="dark:fill-light-heading fill-dark-heading transition-all duration-300 group-hover:invert"
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"
