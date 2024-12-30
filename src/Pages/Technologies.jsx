@@ -16,7 +16,7 @@ function Technologies() {
     figma,
   } = techStackDetails;
   return (
-    <main className="container mx-auto max-width pt-10 pb-20 ">
+    <main className="container section mx-auto max-width pt-10 pb-20 ">
       <section>
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Tech Stack
@@ -26,12 +26,12 @@ function Technologies() {
         </p>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-        <img src={react} title="React" alt="" className="h-24" />
-        <img src={cypress} title="Cypress" alt="" className="h-24" />
-        <img src={locust} title="Locust" alt="" className="h-24" />
-        <img src={tailwind} title="Tailwind CSS" alt="" className="h-24" />
-        <img src={selenium} title="Selenium" alt="" className="h-24" />
-        <img src={python} title="Python" alt="" className="h-24" />
+        <img src={react} title="React" alt="" className="md:h-24" />
+        <img src={cypress} title="Cypress" alt="" className="md:md:h-24" />
+        <img src={locust} title="Locust" alt="" className="md:h-24" />
+        <img src={tailwind} title="Tailwind CSS" alt="" className="md:h-24" />
+        <img src={selenium} title="Selenium" alt="" className="md:h-24" />
+        <img src={python} title="Python" alt="" className="md:h-24" />
       </section>
       <section>
         <h1 className="text-2xl pt-10 md:pt-24 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
@@ -39,11 +39,16 @@ function Technologies() {
         </h1>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-        <img src={vscode} title="Visual Studio Code" alt="" className="h-24" />
-        <img src={github} title="Github" alt="Github" className="h-24" />
-        <img src={chatgpt} title="ChatGPT" alt="ChatGPT" className="h-24" />
-        <img src={figma} title="Figma" alt="Figma" className="h-24" />
-        <img src={postman} title="Postman" alt="Postman" className="h-24" />
+        <img
+          src={vscode}
+          title="Visual Studio Code"
+          alt=""
+          className="md:h-24"
+        />
+        <img src={github} title="Github" alt="Github" className="md:h-24" />
+        <img src={chatgpt} title="ChatGPT" alt="ChatGPT" className="md:h-24" />
+        <img src={figma} title="Figma" alt="Figma" className="md:h-24" />
+        <img src={postman} title="Postman" alt="Postman" className="md:h-24" />
       </section>
     </main>
   );
