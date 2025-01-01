@@ -222,11 +222,28 @@ export const projectDetails = [{
     previewLink: "https://www.dorchestercollection.com/",
   },
   {
-    title: "Stylus",
-    image: projectImage2,
-    description: `Assuring seamless integration of the Stylus platform migration, including RBAC and legacy database compatibility.`,
-    techstack: "QA",
-    previewLink: "https://stylus.com/",
+    title: "Ultima Collection",
+    image: projectImage6,
+    description: `Oversaw the QA and development teams and acted as a technical PM, ensuring smooth collaboration and timely project delivery.`,
+    techstack: "Technical PM, QA Lead",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+  {
+    title: "Harbour Hotels",
+    image: projectImage5,
+    description: `Supported the project manager as a technical PM and implemented small features in React for Harbour Hotels, ensuring smooth integration and timely delivery.`,
+    techstack: "Technical PM, Frontend Developer",
+    previewLink: "https://www.harbourhotels.co.uk/",
+    githubLink: "https://github.com",
+  },
+
+  {
+    title: "Maxx Royal",
+    image: projectImage4,
+    description: `Led the QA team and managed the retainer project for Maxx Royal, ensuring quality assurance and seamless project delivery through cross-functional collaboration.`,
+    techstack: "Project Manager, QA Lead",
+    previewLink: "https://www.maxxroyal.com/",
     githubLink: "https://github.com",
   },
   {
@@ -238,29 +255,16 @@ export const projectDetails = [{
     githubLink: "https://github.com",
   },
   {
-    title: "Maxx Royal",
-    image: projectImage4,
-    description: `Led the QA team and managed the retainer project for Maxx Royal, ensuring quality assurance and seamless project delivery through cross-functional collaboration.`,
-    techstack: "Project Manager, QA Lead",
-    previewLink: "https://www.maxxroyal.com/",
+    title: "Stylus",
+    image: projectImage2,
+    description: `Assuring seamless integration of the Stylus platform migration, including RBAC and legacy database compatibility.`,
+    techstack: "QA",
+    previewLink: "https://stylus.com/",
     githubLink: "https://github.com",
   },
-  {
-    title: "Harbour Hotels",
-    image: projectImage5,
-    description: `Supported the project manager as a technical PM and implemented small features in React for Harbour Hotels, ensuring smooth integration and timely delivery.`,
-    techstack: "Technical PM, Frontend Developer",
-    previewLink: "https://www.harbourhotels.co.uk/",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Ultima Collection",
-    image: projectImage6,
-    description: `Oversaw the QA and development teams and acted as a technical PM, ensuring smooth collaboration and timely project delivery.`,
-    techstack: "Technical PM, QA Lead",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
+
+
+
 ];
 
 // Contact Details
