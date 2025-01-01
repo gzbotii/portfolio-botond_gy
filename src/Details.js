@@ -218,7 +218,7 @@ export const projectDetails = [{
     title: "Dorchester Collection",
     image: projectImage1,
     description: `Contributed to reshaping the digital experience for Dorchester Collection, a leading luxury hotel chain`,
-    techstack: "Technical Project Manager",
+    techstack: "Technical PM",
     previewLink: "https://www.dorchestercollection.com/",
   },
   {
@@ -246,20 +246,18 @@ export const projectDetails = [{
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 5",
+    title: "Harbour Hotels",
     image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    description: `Supported the project manager as a technical PM and implemented small features in React for Harbour Hotels, ensuring smooth integration and timely delivery.`,
+    techstack: "Technical PM, Frontend Developer",
+    previewLink: "https://www.harbourhotels.co.uk/",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 6",
+    title: "Ultima Collection",
     image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `Oversaw the QA and development teams and acted as a technical PM, ensuring smooth collaboration and timely project delivery.`,
+    techstack: "Technical PM, QA Lead",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },

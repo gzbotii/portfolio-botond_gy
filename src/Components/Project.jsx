@@ -5,14 +5,13 @@ function Project({title, image, description, techstack, previewLink}) {
     <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900">
       <img src={image} alt="" loading="lazy" />
       <div className="dark:bg-dark-card p-4">
-        <h1 className="dark:text-light-heading font-semibold text-lg pt-1">
-          {" "}
-          {title}{" "}
-        </h1>{" "}
+        <h2 className="dark:text-light-heading font-semibold text-lg pt-1">
+          {title}
+        </h2>
         <p className="text-content pt-4 font-light"> {description} </p>{" "}
-        <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
+        <p className="text-dark-heading md:pt-6 dark:text-light-heading font-medium pt-4">
           Tech Stack: <span className="font-light"> {techstack} </span>{" "}
-        </h3>{" "}
+        </p>{" "}
         <div className="flex justify-between items-center mt-5">
           <div className="flex items-center">
             <svg
