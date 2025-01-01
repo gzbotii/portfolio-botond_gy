@@ -222,30 +222,27 @@ export const projectDetails = [{
     previewLink: "https://www.dorchestercollection.com/",
   },
   {
-    title: "Project title 2",
+    title: "Stylus",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    description: `Assuring seamless integration of the Stylus platform migration, including RBAC and legacy database compatibility.`,
+    techstack: "QA",
+    previewLink: "https://stylus.com/",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 3",
+    title: "Wilderness Destinations",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    description: `Ensured the quality and performance of the Wilderness Destinations website through comprehensive load testing, validating its stability under various traffic conditions and ensuring seamless user experience.`,
+    techstack: "QA",
+    previewLink: "https://www.wildernessdestinations.com/",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 4",
+    title: "Maxx Royal",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    description: `Led the QA team and managed the retainer project for Maxx Royal, ensuring quality assurance and seamless project delivery through cross-functional collaboration.`,
+    techstack: "Project Manager, QA Lead",
+    previewLink: "https://www.maxxroyal.com/",
     githubLink: "https://github.com",
   },
   {
