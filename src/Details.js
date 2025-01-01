@@ -29,7 +29,7 @@ export const logos = {
   logo: logo,
 };
 
-// Enter your Personal Details here
+// Personal Details
 export const personalDetails = {
   name: "Botond Gyorgy",
   tagline: "Technical Project Director. Passionate Web Developer.",
@@ -38,14 +38,14 @@ export const personalDetails = {
 Adept at leveraging analytical and problem-solving skills to break down complex challenges and foster seamless collaboration across teams. Experienced in Software Development (React, Cypress & Python), streamlining processes, and creating comprehensive documentation.`,
 };
 
-// Enter your Social Media URLs here
+// Social Media URLs
 export const socialMediaUrl = {
   linkedin: "https://www.linkedin.com/in/gyorgy-botond/",
   github: "https://www.github.com/",
   instagram: "https://www.instagram.com/gzbotii/",
 };
 
-// Enter your Work Experience here
+// Work Experience and other Experiences
 export const workDetails = [{
     Position: "Technical Project Director",
     Company: "Octopus Digital",
@@ -118,7 +118,7 @@ export const workDetails = [{
   },
 ];
 
-// Enter your Education Details here
+// Education Details
 export const eduDetails = [{
   Position: "Commination & PR",
   Company: `Babes-Bolyai University`,
@@ -137,64 +137,64 @@ export const courseDetails = [{
     Company: "Shiftspace",
     Location: "Classroom-based learning",
     Type: "Course",
-    Duration: "Completed",
+    Duration: "6-months",
   }, {
     Position: "Frontend Development with React",
     Company: "Udemy",
     Location: "Online",
     Type: "Course",
-    Duration: "Completed",
+    Duration: "28 hours",
   },
   {
     Position: "JavaScript Basics for Beginners",
     Company: "Udemy",
     Location: "Online",
-    Type: "Course",
-    Duration: "Completed",
+    Type: "Crash Course",
+    Duration: "3 hours",
   }, {
     Position: "Python Developer in 2023: Zero to Mastery",
     Company: "Udemy",
     Location: "Online",
     Type: "Course",
-    Duration: "Completed",
+    Duration: "42 hours",
   },
   {
     Position: "British Council English Online",
     Company: "British Council",
     Location: "Online",
     Type: "Course",
-    Duration: "Completed",
+    Duration: "24 hours",
   },
   {
     Position: "Best Practices for Effective Requirements Gathering",
     Company: "Pluralsight",
     Location: "Online",
     Type: "Course",
-    Duration: "Completed",
+    Duration: "8 hours",
   }, {
     Position: "Business Analysis Fundamentals - 2022",
     Company: "Pluralsight",
     Location: "Online",
     Type: "Course",
-    Duration: "Completed",
+    Duration: "12 hours",
   }, {
     Position: "SEO Training Course by Moz",
     Company: "Udemy",
     Location: "Online",
     Type: "Course",
-    Duration: "Completed",
+    Duration: "4 hours",
   }, {
     Position: "UX/UI Design Principles Compact",
     Company: "Matter Of Form",
     Location: "Online",
     Type: "Course",
-    Duration: "Completed",
+    Duration: "2.5 hours",
   }, {
     Position: "User Experience Tips and Tricks for Developers",
     Company: "Pluralsight",
     Location: "Online",
     Type: "Course",
-    Duration: "Completed",
+    Duration: "6 hours",
   },
 ];
 
@@ -213,15 +213,13 @@ export const techStackDetails = {
   python
 };
 
-// Enter your Project Details here
+// Project Details
 export const projectDetails = [{
-    title: "Project title 1",
+    title: "Dorchester Collection",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `Contributed to reshaping the digital experience for Dorchester Collection, a leading luxury hotel chain`,
+    techstack: "Technical Project Manager",
+    previewLink: "https://www.dorchestercollection.com/",
   },
   {
     title: "Project title 2",
@@ -270,7 +268,7 @@ project lorem ipsum generator for dummy content`,
   },
 ];
 
-// Enter your Contact Details here
+// Contact Details
 export const contactDetails = {
   email: "gzbotii@gmail.com",
 
