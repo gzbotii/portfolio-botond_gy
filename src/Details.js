@@ -56,14 +56,14 @@ export const workDetails = [{
   {
     Position: "Technical Project Manager",
     Company: "Matter Of Form",
-    Location: "Hybrid",
+    Location: "London - Hybrid",
     Type: "Full Time",
     Duration: "Dec 2021 - Sep 2024",
   },
   {
     Position: "Senior Software QA Analyst",
     Company: "Matter Of Form",
-    Location: "Hybrid",
+    Location: "London - Hybrid",
     Type: "Full Time",
     Duration: "Nov 2020 - Dec 2021",
   },
@@ -120,37 +120,32 @@ export const workDetails = [{
 
 // Enter your Education Details here
 export const eduDetails = [{
+  Position: "Commination & PR",
+  Company: `Babes-Bolyai University`,
+  Location: "Kolozsvár",
+  Type: "Full Time",
+  Duration: "2014 - 2017",
+}, {
+  Position: "Sociology",
+  Company: `Babes-Bolyai University`,
+  Location: "Kolozsvár",
+  Type: "Full Time",
+  Duration: "2010 - 2013",
+}, ];
+export const courseDetails = [{
+    Position: "QA Fundamentals at Siftspace",
+    Company: "Shiftspace",
+    Location: "Classroom-based learning",
+    Type: "Course",
+    Duration: "Completed",
+  }, {
     Position: "Frontend Development with React",
     Company: "Udemy",
     Location: "Online",
-    Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Type: "Course",
+    Duration: "Completed",
   },
   {
-    Position: "Commination & PR",
-    Company: `Babes-Bolyai University`,
-    Location: "Kolozsvar",
-    Type: "Full Time",
-    Duration: "Aug 2020 - Present",
-  }, {
-    Position: "Best Practices for Effective Requirements Gathering",
-    Company: "Pluralsight",
-    Location: "Online",
-    Type: "Course",
-    Duration: "Completed",
-  }, {
-    Position: "British Council English Online",
-    Company: "British Council",
-    Location: "Online",
-    Type: "Course",
-    Duration: "Completed",
-  }, {
-    Position: "Business Analysis Fundamentals - 2022",
-    Company: "Pluralsight",
-    Location: "Online",
-    Type: "Course",
-    Duration: "Completed",
-  }, {
     Position: "JavaScript Basics for Beginners",
     Company: "Udemy",
     Location: "Online",
@@ -162,10 +157,24 @@ export const eduDetails = [{
     Location: "Online",
     Type: "Course",
     Duration: "Completed",
+  },
+  {
+    Position: "British Council English Online",
+    Company: "British Council",
+    Location: "Online",
+    Type: "Course",
+    Duration: "Completed",
+  },
+  {
+    Position: "Best Practices for Effective Requirements Gathering",
+    Company: "Pluralsight",
+    Location: "Online",
+    Type: "Course",
+    Duration: "Completed",
   }, {
-    Position: "QA Fundamentals at Siftspace",
-    Company: "Shiftspace",
-    Location: "Classroom-based learning",
+    Position: "Business Analysis Fundamentals - 2022",
+    Company: "Pluralsight",
+    Location: "Online",
     Type: "Course",
     Duration: "Completed",
   }, {
