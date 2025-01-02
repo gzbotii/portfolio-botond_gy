@@ -9,17 +9,17 @@ function Project({
   previewLink,
 }) {
   return (
-    <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900">
+    <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900 flex flex-col">
       <img src={image} alt="" loading="lazy" />
-      <div className="dark:bg-dark-card p-4">
+      <div className="dark:bg-dark-card p-4 flex flex-col flex-grow">
         <h2 className="dark:text-light-heading font-semibold text-lg pt-1">
           {title}
         </h2>
-        <p className="text-content pt-4 font-light"> {description} </p>{" "}
-        <p className="text-dark-heading md:pt-6 dark:text-light-heading font-medium pt-4">
+        <p className="text-content pt-4 font-light"> {description} </p>
+        <p className="text-dark-heading md:pt-4 dark:text-light-heading font-medium pt-4">
           Tech Stack: <span className="font-light"> {techstack} </span>{" "}
-        </p>{" "}
-        <div className="flex justify-between items-center mt-5">
+        </p>
+        <div className="flex justify-between items-center pt-3 mt-auto ">
           <div className="flex items-center">
             <svg
               className="stroke-dark-heading dark:stroke-white inline-block min-w-fit"
@@ -41,7 +41,7 @@ function Project({
                 strokeLinecap="round"
                 strokeLinejoin="round"
               />
-            </svg>{" "}
+            </svg>
             <a
               href={previewLink}
               target="_blank"
@@ -49,9 +49,9 @@ function Project({
               className="underline pl-2 font-light dark:text-white"
             >
               Website{" "}
-            </a>{" "}
-          </div>{" "}
-          {githubLink && ( // Conditionally render this block
+            </a>
+          </div>
+          {githubLink && (
             <div className="flex items-center">
               <svg
                 className="dark:fill-light-heading fill-dark-heading inline-block min-w-fit"
@@ -77,8 +77,8 @@ function Project({
               </a>
             </div>
           )}
-        </div>{" "}
-      </div>{" "}
+        </div>
+      </div>
     </article>
   );
 }

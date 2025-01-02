@@ -234,7 +234,7 @@ export const projectDetails = [{
   {
     title: "Harbour Hotels",
     image: projectImage5,
-    description: `Supported the project manager as a technical PM and implemented small features in React for Harbour Hotels, ensuring smooth integration and timely delivery.`,
+    description: `Supported the project manager as a technical PM and implemented small features in React for Harbour Hotels.`,
     techstack: "Technical PM, Frontend Developer",
     previewLink: "https://www.harbourhotels.co.uk/",
 
@@ -251,7 +251,7 @@ export const projectDetails = [{
   {
     title: "Wilderness Destinations",
     image: projectImage3,
-    description: `Ensured the quality and performance of the Wilderness Destinations website through comprehensive load testing, validating its stability under various traffic conditions and ensuring seamless user experience.`,
+    description: `Ensured the quality and performance of the Wilderness Destinations website through comprehensive load testing, validating its stability under various traffic conditions.`,
     techstack: "QA",
     previewLink: "https://www.wildernessdestinations.com/",
 
