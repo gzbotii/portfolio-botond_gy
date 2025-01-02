@@ -44,10 +44,9 @@ function Projects() {
           Perosnal Projects
         </h2>
         <p className="text-content py-8 lg:max-w-3xl">
-          Key projects I’ve contributed to as a Technical Project Manager, QA
-          and software developer, showcasing my commitment to building efficient
-          solutions and delivering exceptional results through collaboration and
-          attention to detail.
+          Exploring new technologies and honing my skills, these projects
+          reflect my journey in web development, showcasing creativity,
+          problem-solving, and a passion for learning.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10">
           {React.Children.toArray(
