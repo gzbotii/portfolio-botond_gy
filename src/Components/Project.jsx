@@ -11,13 +11,13 @@ function Project({
   return (
     <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900 flex flex-col">
       <img src={image} alt="" loading="lazy" />
-      <div className="dark:bg-dark-card p-4 flex flex-col flex-grow">
+      <div className="dark:bg-dark-card p-4 flex flex-col flex-grow justify-between">
         <h2 className="dark:text-light-heading font-semibold text-lg pt-1">
           {title}
         </h2>
         <p className="text-content pt-4 font-light"> {description} </p>
-        <p className="text-dark-heading md:pt-4 dark:text-light-heading font-medium pt-4">
-          Tech Stack: <span className="font-light"> {techstack} </span>{" "}
+        <p className="text-dark-heading md:pt-5 dark:text-light-heading font-medium pt-4">
+          Tech Stack: <span className="font-light"> {techstack} </span>
         </p>
         <div className="flex justify-between items-center pt-3 mt-auto ">
           <div className="flex items-center">
@@ -48,9 +48,10 @@ function Project({
               rel="noreferrer noopener"
               className="underline pl-2 font-light dark:text-white"
             >
-              Website{" "}
+              Website
             </a>
           </div>
+
           {githubLink && (
             <div className="flex items-center">
               <svg
