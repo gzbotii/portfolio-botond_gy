@@ -34,13 +34,25 @@ export const logos = {
 // Personal Details
 export const personalDetails = {
   name: "Botond Gyorgy",
-  tagline: "Technical Project Director. Passionate Web Developer.",
+  tagline: (
+    <>
+      Technical Project Director. <br /> Passionate Web Developer.{" "}
+    </>
+  ),
   img: profile,
-  about: `As a Technical Project Director, I bring a robust background in frontend development, quality assurance, and project management. With experience in managing multiple projects simultaneously, I focus on driving results through collaboration and efficient execution.
-
-  My technical expertise includes frontend technologies such as React, Cypress, and Python, with a strong emphasis on development and testing. I am skilled in delivering scalable solutions and ensuring quality. 
-  
-  With a passion for development, I am dedicated to creating intuitive user interfaces and optimizing the software development lifecycle.`,
+  about: (
+    <>
+      As a Technical Project Director, I bring expertise in frontend
+      development, quality assurance, and project management. I excel at
+      managing multiple projects efficiently, driving results through
+      collaboration and execution. <br />
+      My skills include React, Tailwind CSS, test automation with Cypress, and
+      load testing using the Locust Python framework. I deliver scalable,
+      high-quality solutions. <br />
+      With a passion for development, I am dedicated to creating intuitive
+      solutions.
+    </>
+  ),
 };
 
 // Social Media URLs
@@ -51,7 +63,8 @@ export const socialMediaUrl = {
 };
 
 // Work Experience and other Experiences
-export const workDetails = [{
+export const workDetails = [
+  {
     Position: "Technical Project Director",
     Company: "Octopus Digital",
     Location: "Harghita, Romania",
@@ -124,26 +137,31 @@ export const workDetails = [{
 ];
 
 // Education Details
-export const eduDetails = [{
-  Position: "Commination & PR",
-  Company: `Babes-Bolyai University`,
-  Location: "Kolozsvár",
-  Type: "Full Time",
-  Duration: "2014 - 2017",
-}, {
-  Position: "Sociology",
-  Company: `Babes-Bolyai University`,
-  Location: "Kolozsvár",
-  Type: "Full Time",
-  Duration: "2010 - 2013",
-}, ];
-export const courseDetails = [{
+export const eduDetails = [
+  {
+    Position: "Commination & PR",
+    Company: `Babes-Bolyai University`,
+    Location: "Kolozsvár",
+    Type: "Full Time",
+    Duration: "2014 - 2017",
+  },
+  {
+    Position: "Sociology",
+    Company: `Babes-Bolyai University`,
+    Location: "Kolozsvár",
+    Type: "Full Time",
+    Duration: "2010 - 2013",
+  },
+];
+export const courseDetails = [
+  {
     Position: "QA Fundamentals at Siftspace",
     Company: "Shiftspace",
     Location: "Classroom-based learning",
     Type: "Course",
     Duration: "6-months",
-  }, {
+  },
+  {
     Position: "Frontend Development with React",
     Company: "Udemy",
     Location: "Online",
@@ -156,7 +174,8 @@ export const courseDetails = [{
     Location: "Online",
     Type: "Crash Course",
     Duration: "3 hours",
-  }, {
+  },
+  {
     Position: "Python Developer in 2023: Zero to Mastery",
     Company: "Udemy",
     Location: "Online",
@@ -176,25 +195,29 @@ export const courseDetails = [{
     Location: "Online",
     Type: "Course",
     Duration: "8 hours",
-  }, {
+  },
+  {
     Position: "Business Analysis Fundamentals - 2022",
     Company: "Pluralsight",
     Location: "Online",
     Type: "Course",
     Duration: "12 hours",
-  }, {
+  },
+  {
     Position: "SEO Training Course by Moz",
     Company: "Udemy",
     Location: "Online",
     Type: "Course",
     Duration: "4 hours",
-  }, {
+  },
+  {
     Position: "UX/UI Design Principles Compact",
     Company: "Matter Of Form",
     Location: "Online",
     Type: "Course",
     Duration: "2.5 hours",
-  }, {
+  },
+  {
     Position: "User Experience Tips and Tricks for Developers",
     Company: "Pluralsight",
     Location: "Online",
@@ -215,11 +238,12 @@ export const techStackDetails = {
   postman,
   figma,
   vscode,
-  python
+  python,
 };
 
 // Project Details
-export const projectDetails = [{
+export const projectDetails = [
+  {
     title: "Dorchester Collection",
     image: projectImage1,
     description: `Contributed to reshaping the digital experience for Dorchester Collection, a leading luxury hotel chain`,
@@ -232,7 +256,6 @@ export const projectDetails = [{
     description: `Oversaw the QA and development teams and acted as a technical PM, ensuring smooth collaboration and timely project delivery.`,
     techstack: "Technical PM, QA Lead",
     previewLink: "https://google.com",
-
   },
   {
     title: "Harbour Hotels",
@@ -240,7 +263,6 @@ export const projectDetails = [{
     description: `Supported the project manager as a technical PM and implemented small features in React for Harbour Hotels.`,
     techstack: "Technical PM, Frontend Developer",
     previewLink: "https://www.harbourhotels.co.uk/",
-
   },
 
   {
@@ -249,7 +271,6 @@ export const projectDetails = [{
     description: `Led the QA team and managed the retainer project for Maxx Royal, ensuring quality assurance and seamless project delivery through cross-functional collaboration.`,
     techstack: "Project Manager, QA Lead",
     previewLink: "https://www.maxxroyal.com/",
-
   },
   {
     title: "Wilderness Destinations",
@@ -257,7 +278,6 @@ export const projectDetails = [{
     description: `Ensured the quality and performance of the Wilderness Destinations website through comprehensive load testing, validating its stability under various traffic conditions.`,
     techstack: "QA",
     previewLink: "https://www.wildernessdestinations.com/",
-
   },
   {
     title: "Stylus",
@@ -265,11 +285,11 @@ export const projectDetails = [{
     description: `Assuring seamless integration of the Stylus platform migration, including RBAC and legacy database compatibility.`,
     techstack: "QA",
     previewLink: "https://stylus.com/",
-
   },
 ];
 
-export const personalProjectDetails = [{
+export const personalProjectDetails = [
+  {
     title: "Mountains Ski Resort",
     image: projectImage7,
     description: `My first "big" personal project from February 2022 - a ski resort website with GSAP animations, API weather data, form validation, Google Maps integration, and CSS carousel.`,
@@ -280,16 +300,14 @@ export const personalProjectDetails = [{
   {
     title: "Infinite Scroll for Unsplash",
     image: projectImage8,
-    description: `My first API project: an infinite-scroll gallery fetching Unsplash images. Built with vanilla JS & SCSS, it blended design and functionality, teaching key lessons in performance and dynamic content.`,
+    description: `My first API project: an infinite-scroll gallery fetching Unsplash images. Built with vanilla JS & SCSS, it served as a lessons in performance and dynamic content.`,
     techstack: "JS, API fetch",
     previewLink: "https://github.com/gzbotii/Animated-card",
     githubLink: "https://github.com/gzbotii/Animated-card",
   },
-]
-
+];
 
 // Contact Details
 export const contactDetails = {
   email: "gzbotii@gmail.com",
-
 };
