@@ -262,10 +262,25 @@ export const projectDetails = [{
     previewLink: "https://stylus.com/",
     githubLink: "https://github.com",
   },
-
-
-
 ];
+
+export const personalProjectDetails = [{
+    title: "Dorchester Collection",
+    image: projectImage1,
+    description: `Contributed to reshaping the digital experience for Dorchester Collection, a leading luxury hotel chain`,
+    techstack: "Technical PM",
+    previewLink: "https://www.dorchestercollection.com/",
+  },
+  {
+    title: "Ultima Collection",
+    image: projectImage6,
+    description: `Oversaw the QA and development teams and acted as a technical PM, ensuring smooth collaboration and timely project delivery.`,
+    techstack: "Technical PM, QA Lead",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com",
+  },
+]
+
 
 // Contact Details
 export const contactDetails = {

@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "../Components/Project";
-import {projectDetails} from "../Details";
+import {projectDetails, personalProjectDetails} from "../Details";
 
 function Projects() {
   return (
@@ -18,6 +18,40 @@ function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10">
           {React.Children.toArray(
             projectDetails.map(
+              ({
+                title,
+                image,
+                description,
+                techstack,
+                previewLink,
+                githubLink,
+              }) => (
+                <Project
+                  title={title}
+                  image={image}
+                  description={description}
+                  techstack={techstack}
+                  previewLink={previewLink}
+                  githubLink={githubLink}
+                />
+              )
+            )
+          )}
+        </div>
+      </section>
+      <section>
+        <h2 className="text-2xl text-dark-heading section dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+          Perosnal Projects
+        </h2>
+        <p className="text-content py-8 lg:max-w-3xl">
+          Key projects I’ve contributed to as a Technical Project Manager, QA
+          and software developer, showcasing my commitment to building efficient
+          solutions and delivering exceptional results through collaboration and
+          attention to detail.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10">
+          {React.Children.toArray(
+            personalProjectDetails.map(
               ({
                 title,
                 image,
