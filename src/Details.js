@@ -265,9 +265,9 @@ export const projectDetails = [{
 ];
 
 export const personalProjectDetails = [{
-    title: "Dorchester Collection",
+    title: "Mountains Ski Resort",
     image: projectImage1,
-    description: `Contributed to reshaping the digital experience for Dorchester Collection, a leading luxury hotel chain`,
+    description: `My first "big" personal project from February 2022 - a ski resort website with GSAP animations, API weather data, form validation, Google Maps integration, and CSS carousel.`,
     techstack: "Technical PM",
     previewLink: "https://www.dorchestercollection.com/",
   },
