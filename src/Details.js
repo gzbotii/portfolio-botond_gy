@@ -22,6 +22,8 @@ import projectImage3 from "./assets/projects/project3.jpg";
 import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage7 from "./assets/projects/project7.jpg";
+import projectImage8 from "./assets/projects/project8.jpg";
 
 // Logos
 export const logos = {
@@ -227,7 +229,7 @@ export const projectDetails = [{
     description: `Oversaw the QA and development teams and acted as a technical PM, ensuring smooth collaboration and timely project delivery.`,
     techstack: "Technical PM, QA Lead",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+
   },
   {
     title: "Harbour Hotels",
@@ -235,7 +237,7 @@ export const projectDetails = [{
     description: `Supported the project manager as a technical PM and implemented small features in React for Harbour Hotels, ensuring smooth integration and timely delivery.`,
     techstack: "Technical PM, Frontend Developer",
     previewLink: "https://www.harbourhotels.co.uk/",
-    githubLink: "https://github.com",
+
   },
 
   {
@@ -244,7 +246,7 @@ export const projectDetails = [{
     description: `Led the QA team and managed the retainer project for Maxx Royal, ensuring quality assurance and seamless project delivery through cross-functional collaboration.`,
     techstack: "Project Manager, QA Lead",
     previewLink: "https://www.maxxroyal.com/",
-    githubLink: "https://github.com",
+
   },
   {
     title: "Wilderness Destinations",
@@ -252,7 +254,7 @@ export const projectDetails = [{
     description: `Ensured the quality and performance of the Wilderness Destinations website through comprehensive load testing, validating its stability under various traffic conditions and ensuring seamless user experience.`,
     techstack: "QA",
     previewLink: "https://www.wildernessdestinations.com/",
-    githubLink: "https://github.com",
+
   },
   {
     title: "Stylus",
@@ -260,24 +262,25 @@ export const projectDetails = [{
     description: `Assuring seamless integration of the Stylus platform migration, including RBAC and legacy database compatibility.`,
     techstack: "QA",
     previewLink: "https://stylus.com/",
-    githubLink: "https://github.com",
+
   },
 ];
 
 export const personalProjectDetails = [{
     title: "Mountains Ski Resort",
-    image: projectImage1,
+    image: projectImage7,
     description: `My first "big" personal project from February 2022 - a ski resort website with GSAP animations, API weather data, form validation, Google Maps integration, and CSS carousel.`,
-    techstack: "Technical PM",
-    previewLink: "https://www.dorchestercollection.com/",
+    techstack: "Developer",
+    previewLink: "https://mountains-ski-resort.netlify.app/",
+    githubLink: "https://github.com/gzbotii/Hargita-Mountains-Ski-Resort",
   },
   {
-    title: "Ultima Collection",
-    image: projectImage6,
-    description: `Oversaw the QA and development teams and acted as a technical PM, ensuring smooth collaboration and timely project delivery.`,
-    techstack: "Technical PM, QA Lead",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "Infinite Scroll for Unsplash",
+    image: projectImage8,
+    description: `My first API project: an infinite-scroll gallery fetching Unsplash images. Built with vanilla JS & SCSS, it blended design and functionality, teaching key lessons in performance and dynamic content.`,
+    techstack: "Developer",
+    previewLink: "https://github.com/gzbotii/Animated-card",
+    githubLink: "https://github.com/gzbotii/Animated-card",
   },
 ]
 
