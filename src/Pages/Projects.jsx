@@ -45,8 +45,7 @@ function Projects() {
         </h2>
         <p className="text-content py-8 lg:max-w-3xl">
           Exploring new technologies and honing my skills, these projects
-          reflect my journey in web development, showcasing creativity,
-          problem-solving, and a passion for learning.
+          reflect my journey in web development and a passion for learning.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10">
           {React.Children.toArray(
