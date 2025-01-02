@@ -36,8 +36,11 @@ export const personalDetails = {
   name: "Botond Gyorgy",
   tagline: "Technical Project Director. Passionate Web Developer.",
   img: profile,
-  about: `Ready to create effective solutions with an eye for detail. 
-Adept at leveraging analytical and problem-solving skills to break down complex challenges and foster seamless collaboration across teams. Experienced in Software Development (React, Cypress & Python), streamlining processes, and creating comprehensive documentation.`,
+  about: `As a Technical Project Director, I bring a robust background in frontend development, quality assurance, and project management. With experience in managing multiple projects simultaneously, I focus on driving results through collaboration and efficient execution.
+
+  My technical expertise includes frontend technologies such as React, Cypress, and Python, with a strong emphasis on development and testing. I am skilled in delivering scalable solutions and ensuring quality. 
+  
+  With a passion for development, I am dedicated to creating intuitive user interfaces and optimizing the software development lifecycle.`,
 };
 
 // Social Media URLs
