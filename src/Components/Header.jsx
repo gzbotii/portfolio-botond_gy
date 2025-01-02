@@ -30,7 +30,7 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 w-full z-50 bg-white dark:bg-dark-mode">
-      <div className="max-width mx-auto lg:mx-44">
+      <div className="max-width container mx-auto">
         <div className="flex items-center justify-between py-4 md:py-6">
           <NavLink to="/">
             <img
