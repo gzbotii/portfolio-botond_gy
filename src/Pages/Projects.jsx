@@ -11,9 +11,9 @@ function Projects() {
         </h1>
         <p className="text-content py-8 lg:max-w-3xl">
           Key projects I’ve contributed to as a Technical Project Manager, QA
-          and software developer, showcasing my commitment to building efficient
-          solutions and delivering exceptional results through collaboration and
-          attention to detail.
+          Analyst, and Software Developer, highlighting my commitment to
+          delivering exceptional results through collaboration, technical
+          expertise, and attention to detail.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10">
           {React.Children.toArray(

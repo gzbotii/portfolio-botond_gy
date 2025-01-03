@@ -42,15 +42,15 @@ export const personalDetails = {
   img: profile,
   about: (
     <>
-      As a Technical Project Director, I bring expertise in frontend
-      development, quality assurance, and project management. I excel at
-      managing multiple projects efficiently, driving results through
-      collaboration and execution. <br />
-      My skills include React, Tailwind CSS, test automation with Cypress, and
-      load testing using the Locust Python framework. I deliver scalable,
-      high-quality solutions. <br />
-      With a passion for development, I am dedicated to creating intuitive
-      solutions.
+      As a Technical Project Director, I specialize in frontend development,
+      quality assurance, and project management, seamlessly balancing technical
+      expertise with strategic oversight. <br />
+      Skilled in React, Tailwind CSS, Cypress for test automation, and Locust
+      for load testing, I focus on building robust and efficient systems that
+      meet both technical and business goals. <br />
+      Driven by a passion for development, I thrive on creating intuitive,
+      impactful solutions through collaboration and precise execution, ensuring
+      every project achieves exceptional results.
     </>
   ),
 };
