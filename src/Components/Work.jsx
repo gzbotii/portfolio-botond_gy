@@ -4,7 +4,7 @@ function Work({position, company, location, type, duration}) {
   return (
     <article className="pt-8 border-b-2 border-dark-content pb-5 dark:border-light-content border-opacity-20 dark:border-opacity-20">
       <div className="flex justify-between items-center">
-        <h1 className="text-content md:text-lg lg:text-xl"> {position} </h1>{" "}
+        <p className="text-content md:text-lg lg:text-xl"> {position} </p>{" "}
         <div className="btn bg-greenbg text-xs inline-block rounded-3xl px-3 py-1 min-w-fit">
           {" "}
           {type}{" "}

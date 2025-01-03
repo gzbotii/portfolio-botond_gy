@@ -37,6 +37,9 @@ const Header = () => {
             smooth={true}
             duration={500}
             className="cursor-pointer"
+            data-href="#home"
+            aria-label="Site logo"
+            title="Site logo"
           >
             <img
               className="h-10"
@@ -84,15 +87,19 @@ const Header = () => {
           >
             <ul className="dark:text-light-content hover:cursor-pointer font-medium md:flex items-center md:space-x-5 md:mr-10">
               <li className="pb-4 md:pb-0 text-lg">
-                <Link
-                  to="home"
-                  smooth={true}
-                  duration={500}
-                  onClick={toggleClass}
-                  className="relative font-medium opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
-                >
-                  Home
-                </Link>
+                <a href="#home" className="block">
+                  <Link
+                    to="home"
+                    smooth={true}
+                    duration={500}
+                    onClick={toggleClass}
+                    className="relative font-medium opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+                    aria-label="Navigate to Home section"
+                    title="Navigate to Home section"
+                  >
+                    Home
+                  </Link>
+                </a>
               </li>
               <li className="pb-4 md:pb-0 text-lg">
                 <Link
@@ -101,6 +108,8 @@ const Header = () => {
                   duration={500}
                   onClick={toggleClass}
                   className="relative font-medium opacity-75 hover:cursor-pointer hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+                  aria-label="Navigate to about section"
+                  title="Navigate to about section"
                 >
                   About
                 </Link>
@@ -112,6 +121,8 @@ const Header = () => {
                   duration={500}
                   onClick={toggleClass}
                   className="relative font-medium opacity-75 hover:cursor-pointer hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+                  aria-label="Navigate to Technologies section"
+                  title="Navigate to Technologies section"
                 >
                   Technologies
                 </Link>
@@ -123,6 +134,8 @@ const Header = () => {
                   duration={500}
                   onClick={toggleClass}
                   className="relative font-medium opacity-75 hover:cursor-pointer hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+                  aria-label="Navigate to Projects section"
+                  title="Navigate to Projects section"
                 >
                   Projects
                 </Link>
@@ -134,6 +147,8 @@ const Header = () => {
                   duration={500}
                   onClick={toggleClass}
                   className="relative font-medium opacity-75 hover:cursor-pointer hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+                  aria-label="Navigate to Contact section"
+                  title="Navigate to Contact section"
                 >
                   Contact
                 </Link>
