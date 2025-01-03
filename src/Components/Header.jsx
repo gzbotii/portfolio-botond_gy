@@ -1,6 +1,5 @@
 import React, {useState, useRef, useEffect} from "react";
 import {Link} from "react-scroll";
-import {NavLink} from "react-router-dom";
 import {socialMediaUrl} from "../Details";
 
 const Header = () => {
@@ -33,13 +32,18 @@ const Header = () => {
     <header className="fixed top-0 w-full z-50 bg-white dark:bg-dark-mode">
       <div className="max-width container mx-auto">
         <div className="flex items-center justify-between py-4 md:py-6">
-          <NavLink to="/">
+          <Link
+            to="home"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer"
+          >
             <img
               className="h-10"
               src={require("../assets/gzbotii.png")}
               alt="logo"
             />
-          </NavLink>
+          </Link>
           <div
             ref={hamburgerRef}
             onClick={toggleClass}
@@ -78,7 +82,7 @@ const Header = () => {
               shadow-lg
             `}
           >
-            <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
+            <ul className="dark:text-light-content hover:cursor-pointer font-medium md:flex items-center md:space-x-5 md:mr-10">
               <li className="pb-4 md:pb-0 text-lg">
                 <Link
                   to="home"
@@ -91,40 +95,48 @@ const Header = () => {
                 </Link>
               </li>
               <li className="pb-4 md:pb-0 text-lg">
-                <NavLink
-                  to="/about"
+                <Link
+                  to="about"
+                  smooth={true}
+                  duration={500}
                   onClick={toggleClass}
-                  className="relative  font-medium opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+                  className="relative font-medium opacity-75 hover:cursor-pointer hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
                 >
                   About
-                </NavLink>
+                </Link>
               </li>
               <li className="pb-4 md:pb-0 text-lg">
-                <NavLink
-                  to="/technologies"
+                <Link
+                  to="technologies"
+                  smooth={true}
+                  duration={500}
                   onClick={toggleClass}
-                  className="relative  font-medium opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+                  className="relative font-medium opacity-75 hover:cursor-pointer hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
                 >
                   Technologies
-                </NavLink>
+                </Link>
               </li>
               <li className="pb-4 md:pb-0 text-lg">
-                <NavLink
-                  to="/projects"
+                <Link
+                  to="projects"
+                  smooth={true}
+                  duration={500}
                   onClick={toggleClass}
-                  className="relative  font-medium opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+                  className="relative font-medium opacity-75 hover:cursor-pointer hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
                 >
                   Projects
-                </NavLink>
+                </Link>
               </li>
               <li className="pb-4 md:pb-0 text-lg">
-                <NavLink
-                  to="/contact"
+                <Link
+                  to="contact"
+                  smooth={true}
+                  duration={500}
                   onClick={toggleClass}
-                  className="relative  font-medium opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+                  className="relative font-medium opacity-75 hover:cursor-pointer hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
                 >
                   Contact
-                </NavLink>
+                </Link>
               </li>
             </ul>
             <ul className="flex justify-evenly items-center my-10 mx-12 md:my-0 md:space-x-5 md:mr-5">
