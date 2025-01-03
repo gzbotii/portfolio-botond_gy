@@ -38,7 +38,7 @@ export const personalDetails = {
   name: "Botond Gyorgy",
   tagline: (
     <>
-      Technical Project Director. <br /> Passionate Web Developer.{" "}
+      Technical Project Director. <br /> Passionate Web Developer.
     </>
   ),
   img: profile,
@@ -71,32 +71,32 @@ export const workDetails = [
     Company: "Octopus Digital",
     Location: "Harghita, Romania",
     Type: "Full Time",
-    Duration: "Jun 2024 - Present",
+    Duration: "Aug 2024 - Present",
   },
   {
     Position: "Technical Project Manager",
     Company: "Matter Of Form",
     Location: "London - Hybrid",
     Type: "Full Time",
-    Duration: "Dec 2021 - Sep 2024",
+    Duration: "Dec 2021 - Aug 2024",
   },
   {
-    Position: "Senior Software QA Analyst",
+    Position: "Senior Software QA Analyst, Team lead",
     Company: "Matter Of Form",
     Location: "London - Hybrid",
-    Type: "Full Time",
+    Type: "Part Time",
     Duration: "Nov 2020 - Dec 2021",
   },
   {
     Position: "Junior Project Manager",
-    Company: "Cognitive Creators | Enterprise Digital Transformation",
+    Company: "Cognitive Creators",
     Location: "Miercurea-Ciuc, Harghita, Romania",
-    Type: "Full Time",
+    Type: "Part Time",
     Duration: "Oct 2020 - Oct 2021",
   },
   {
     Position: "Software QA Analyst",
-    Company: "Cognitive Creators | Enterprise Digital Transformation",
+    Company: "Cognitive Creators",
     Location: "Miercurea-Ciuc, Harghita, Romania",
     Type: "Full Time",
     Duration: "Jan 2020 - Oct 2021",
@@ -165,22 +165,22 @@ export const courseDetails = [
   },
   {
     Position: "Frontend Development with React",
-    Company: "Udemy",
-    Location: "Online",
+    Company: "Andrei Neagoie - Zero to Mastery",
+    Location: "Udemy",
     Type: "Course",
     Duration: "28 hours",
   },
   {
     Position: "JavaScript Basics for Beginners",
-    Company: "Udemy",
-    Location: "Online",
+    Company: "Mosh Hamedani",
+    Location: "Udemy",
     Type: "Crash Course",
     Duration: "3 hours",
   },
   {
     Position: "Python Developer in 2023: Zero to Mastery",
-    Company: "Udemy",
-    Location: "Online",
+    Company: "Andrei Neagoie - Zero to Mastery",
+    Location: "Udemy",
     Type: "Course",
     Duration: "42 hours",
   },
