@@ -53,7 +53,10 @@ function Home() {
   }, []);
 
   return (
-    <main className="container mx-auto max-width flex flex-col md:flex-row justify-center items-center min-h-screen">
+    <main
+      id="home"
+      className="container mx-auto max-width flex flex-col md:flex-row justify-center items-center min-h-screen"
+    >
       <div className="w-full md:w-7/10 text-left">
         <h1
           ref={h11}
