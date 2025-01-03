@@ -6,9 +6,9 @@ function Projects() {
   return (
     <main id="projects" className="container mx-auto max-width pt-10 mb-20">
       <section>
-        <h3 className="text-2xl text-dark-heading section dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        <h2 className="text-2xl text-dark-heading section dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Projects
-        </h3>
+        </h2>
         <p className="text-content py-8 lg:max-w-3xl">
           Key projects I’ve contributed to as a Technical Project Manager, QA
           Analyst, and Software Developer, highlighting my commitment to
@@ -40,9 +40,9 @@ function Projects() {
         </div>
       </section>
       <section>
-        <h4 className="text-2xl text-dark-heading section dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        <h3 className="text-2xl text-dark-heading section dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Perosnal Projects
-        </h4>
+        </h3>
         <p className="text-content py-8 lg:max-w-3xl">
           Exploring new technologies and honing my skills, these projects
           reflect my journey in web development and a passion for learning.
