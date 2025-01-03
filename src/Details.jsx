@@ -15,6 +15,8 @@ import chatgpt from "./assets/techstack/chatgpt.png";
 import github from "./assets/techstack/github.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
+import jira from "./assets/techstack/jira.png";
+import gsheet from "./assets/techstack/gsheet.png";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
@@ -239,6 +241,8 @@ export const techStackDetails = {
   figma,
   vscode,
   python,
+  jira,
+  gsheet,
 };
 
 // Project Details
