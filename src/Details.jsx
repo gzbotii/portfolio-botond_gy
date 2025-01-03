@@ -272,7 +272,7 @@ export const projectDetails = [
   {
     title: "Maxx Royal",
     image: projectImage4,
-    description: `Led the QA team and managed the retainer project for Maxx Royal, ensuring quality assurance and seamless project delivery through cross-functional collaboration.`,
+    description: `Lead the QA team and managed the retainer project for Maxx Royal, ensuring quality assurance and seamless project delivery through cross-functional collaboration.`,
     techstack: "Project Manager, QA Lead",
     previewLink: "https://www.maxxroyal.com/",
   },
