@@ -54,9 +54,9 @@ function About() {
         )}
       </section>
       <section>
-        <h4 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        <h5 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Courses
-        </h4>
+        </h5>
         {React.Children.toArray(
           courseDetails.map(({Position, Company, Location, Type, Duration}) => (
             <Work

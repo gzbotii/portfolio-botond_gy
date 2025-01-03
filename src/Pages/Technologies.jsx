@@ -23,9 +23,9 @@ function Technologies() {
       className="container section mx-auto max-width pt-10 pb-20 "
     >
       <section>
-        <h5 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        <h4 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Tech Stack
-        </h5>
+        </h4>
         <p className="text-content py-2 lg:max-w-3xl">
           Technologies I've been working with recently
         </p>
