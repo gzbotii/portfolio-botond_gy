@@ -38,6 +38,7 @@ const Header = () => {
             duration={500}
             className="cursor-pointer"
             aria-label="Site logo"
+            role="button"
             title="Site logo"
           >
             <img
@@ -94,6 +95,7 @@ const Header = () => {
                   className="relative font-medium opacity-75 hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
                   aria-label="Navigate to Home section"
                   title="Navigate to Home section"
+                  role="button"
                 >
                   Home
                 </Link>
@@ -107,6 +109,7 @@ const Header = () => {
                   className="relative font-medium opacity-75 hover:cursor-pointer hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
                   aria-label="Navigate to About section"
                   title="Navigate to About section"
+                  role="button"
                 >
                   About
                 </Link>
@@ -120,6 +123,7 @@ const Header = () => {
                   className="relative font-medium opacity-75 hover:cursor-pointer hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
                   aria-label="Navigate to Technologies section"
                   title="Navigate to Technologies section"
+                  role="button"
                 >
                   Technologies
                 </Link>
@@ -133,6 +137,7 @@ const Header = () => {
                   className="relative font-medium opacity-75 hover:cursor-pointer hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
                   aria-label="Navigate to Projects section"
                   title="Navigate to Projects section"
+                  role="button"
                 >
                   Projects
                 </Link>
@@ -146,6 +151,7 @@ const Header = () => {
                   className="relative font-medium opacity-75 hover:cursor-pointer hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
                   aria-label="Navigate to Contact section"
                   title="Navigate to Contact section"
+                  role="button"
                 >
                   Contact
                 </Link>
