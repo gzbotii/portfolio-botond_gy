@@ -16,6 +16,8 @@ function Technologies() {
     figma,
     jira,
     gsheet,
+    gsap,
+    js,
   } = techStackDetails;
   return (
     <main
@@ -32,6 +34,8 @@ function Technologies() {
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
         <img src={react} title="React" alt="" className="md:h-24" />
+        <img src={js} title="JS" alt="JavaScript" className="md:h-24" />
+        <img src={gsap} title="GSAP" alt="GSAP" className="md:h-24" />
         <img src={cypress} title="Cypress" alt="" className="md:md:h-24" />
         <img src={locust} title="Locust" alt="" className="md:h-24" />
         <img src={tailwind} title="Tailwind CSS" alt="" className="md:h-24" />

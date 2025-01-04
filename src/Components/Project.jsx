@@ -47,6 +47,7 @@ function Project({
               target="_blank"
               rel="noreferrer noopener"
               className="underline pl-2 font-light dark:text-white"
+              aria-label={`Visit ${title} (opens in a new window)`}
             >
               Website
             </a>

@@ -17,6 +17,8 @@ import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
 import jira from "./assets/techstack/jira.png";
 import gsheet from "./assets/techstack/gsheet.png";
+import gsap from "./assets/techstack/gsap.png";
+import js from "./assets/techstack/js.png";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
@@ -243,6 +245,8 @@ export const techStackDetails = {
   python,
   jira,
   gsheet,
+  gsap,
+  js,
 };
 
 // Project Details
