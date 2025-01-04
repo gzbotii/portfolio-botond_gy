@@ -12,9 +12,13 @@ function Project({
     <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900 flex flex-col">
       <img src={image} alt="" loading="lazy" />
       <div className="dark:bg-dark-card p-4 flex flex-col flex-grow justify-between">
-        <h2 className="dark:text-light-heading font-semibold text-lg pt-1">
+        <p
+          role="heading"
+          aria-level="3"
+          className=" dark:text-light-heading font-semibold text-lg pt-1"
+        >
           {title}
-        </h2>
+        </p>
         <p className="text-content pt-4 font-light"> {description} </p>
         <p className="text-dark-heading md:pt-5 dark:text-light-heading font-medium pt-4">
           Tech Stack: <span className="font-light"> {techstack} </span>
@@ -73,6 +77,7 @@ function Project({
                 href={githubLink}
                 target="_blank"
                 rel="noreferrer noopener"
+                aria-label={`Visit the Github for ${title} (opens in a new window)`}
                 className="underline pl-2 font-light dark:text-white"
               >
                 View Code
