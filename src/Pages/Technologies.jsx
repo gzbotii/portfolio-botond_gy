@@ -33,14 +33,29 @@ function Technologies() {
         </p>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-        <img src={react} title="React" alt="" className="md:h-24" />
+        <img src={react} title="React" alt="react" className="md:h-24" />
         <img src={js} title="JS" alt="JavaScript" className="md:h-24" />
         <img src={gsap} title="GSAP" alt="GSAP" className="md:h-24" />
-        <img src={cypress} title="Cypress" alt="" className="md:md:h-24" />
-        <img src={locust} title="Locust" alt="" className="md:h-24" />
-        <img src={tailwind} title="Tailwind CSS" alt="" className="md:h-24" />
-        <img src={selenium} title="Selenium" alt="" className="md:h-24" />
-        <img src={python} title="Python" alt="" className="md:h-24" />
+        <img
+          src={cypress}
+          title="Cypress"
+          alt="cypress"
+          className="md:md:h-24"
+        />
+        <img src={locust} title="Locust" alt="locust" className="md:h-24" />
+        <img
+          src={tailwind}
+          title="Tailwind CSS"
+          alt="tailwind css"
+          className="md:h-24"
+        />
+        <img
+          src={selenium}
+          title="Selenium"
+          alt="Selenium"
+          className="md:h-24"
+        />
+        <img src={python} title="Python" alt="Python" className="md:h-24" />
       </section>
       <section>
         <h5 className="text-2xl pt-10 md:pt-24 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
