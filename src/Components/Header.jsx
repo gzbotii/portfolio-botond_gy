@@ -54,6 +54,7 @@ const Header = () => {
           >
             <svg
               className="stroke-dark-heading dark:stroke-white"
+              role="presentation"
               width="25"
               height="20"
               viewBox="0 0 16 13"
