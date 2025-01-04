@@ -157,6 +157,7 @@ const Header = () => {
                   href={linkedin}
                   target="_blank"
                   rel="noreferrer noopener"
+                  alt="LinkedIn"
                   className="group"
                 >
                   <svg
@@ -166,6 +167,7 @@ const Header = () => {
                     viewBox="0 0 30 30"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
+                    role="presentation"
                   >
                     <path d="M15 0.599976C7.04701 0.599976 0.600006 7.04698 0.600006 15C0.600006 22.953 7.04701 29.4 15 29.4C22.953 29.4 29.4 22.953 29.4 15C29.4 7.04698 22.953 0.599976 15 0.599976ZM11.475 20.9685H8.55901V11.5845H11.475V20.9685ZM9.99901 10.4325C9.07801 10.4325 8.48251 9.77997 8.48251 8.97297C8.48251 8.14948 9.09601 7.51648 10.0365 7.51648C10.977 7.51648 11.553 8.14948 11.571 8.97297C11.571 9.77997 10.977 10.4325 9.99901 10.4325ZM22.125 20.9685H19.209V15.768C19.209 14.5575 18.786 13.7355 17.7315 13.7355C16.926 13.7355 16.4475 14.292 16.236 14.8275C16.158 15.018 16.1385 15.288 16.1385 15.5565V20.967H13.221V14.577C13.221 13.4055 13.1835 12.426 13.1445 11.583H15.678L15.8115 12.8865H15.87C16.254 12.2745 17.1945 11.3715 18.768 11.3715C20.6865 11.3715 22.125 12.657 22.125 15.42V20.9685Z" />
                   </svg>
@@ -177,6 +179,7 @@ const Header = () => {
                   href={instagram}
                   target="_blank"
                   rel="noreferrer noopener"
+                  alt="Instagram"
                   className="group"
                 >
                   <svg
@@ -184,6 +187,7 @@ const Header = () => {
                     viewBox="0 0 90 90"
                     width="32"
                     height="32"
+                    role="presentation"
                     className="dark:fill-light-heading fill-dark-heading transition-all duration-300 group-hover:invert"
                   >
                     <path d="M60.961 31.655c0-1.437-1.165-2.602-2.602-2.602s-2.602 1.165-2.602 2.602 1.165 2.602 2.602 2.602 2.602-1.165 2.602-2.602z" />
@@ -198,6 +202,7 @@ const Header = () => {
                   href={github}
                   target="_blank"
                   rel="noreferrer noopener"
+                  alt="Github"
                   className="group"
                 >
                   <svg
@@ -207,6 +212,7 @@ const Header = () => {
                     viewBox="0 0 30 30"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
+                    role="presentation"
                   >
                     <path
                       fillRule="evenodd"
