@@ -10,7 +10,7 @@ function Project({
 }) {
   return (
     <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900 flex flex-col">
-      <img src={image} alt="" loading="lazy" />
+      <img src={image} alt={`Screenshot for ${title}`} loading="lazy" />
       <div className="dark:bg-dark-card p-4 flex flex-col flex-grow justify-between">
         <p
           role="heading"
