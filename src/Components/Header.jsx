@@ -51,6 +51,7 @@ const Header = () => {
             ref={hamburgerRef}
             onClick={toggleClass}
             className="cursor-pointer md:hidden"
+            role="button"
           >
             <svg
               className="stroke-dark-heading dark:stroke-white"

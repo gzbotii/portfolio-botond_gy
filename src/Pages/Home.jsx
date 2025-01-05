@@ -14,12 +14,13 @@ function Home() {
   useEffect(() => {
     const tl = gsap.timeline();
 
-    tl.from(h11.current, {
-      x: "-100%",
-      opacity: 0,
-      duration: 2,
-      ease: "Power3.easeOut",
-    })
+    tl.set(h11.current, {opacity: 0}) // Set initial state
+      .from(h11.current, {
+        x: "-100%",
+        opacity: 0,
+        duration: 2,
+        ease: "Power3.easeOut",
+      })
       .from(
         h12.current,
         {

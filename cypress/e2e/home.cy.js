@@ -24,7 +24,7 @@ describe("Home Component Tests", () => {
 });
 
 describe("Home Component - Responsiveness", () => {
-  const viewports = ["iphone-6", "ipad-2", [1920, 1080]]; // Mobile, Tablet, Desktop
+  const viewports = ["iphone-xr", "macbook-13", [1920, 1080]];
 
   viewports.forEach((viewport) => {
     it(`renders correctly on ${viewport} viewport`, () => {
@@ -37,5 +37,21 @@ describe("Home Component - Responsiveness", () => {
       cy.get('[data-test="main-heading"]').should("be.visible");
       cy.get('[data-test="profile-image"]').should("be.visible");
     });
+  });
+});
+
+describe("Home Component - Animations", () => {
+  beforeEach(() => {
+    cy.visit("/");
+  });
+
+  it("animates the main heading into view", () => {
+    cy.get('[data-test="main-heading"]')
+      .should("have.css", "opacity", "1")
+  });
+
+  it("animates the profile image into view", () => {
+    cy.get('[data-test="profile-image"]')
+      .should("have.css", "opacity", "1"); // After animation
   });
 });
