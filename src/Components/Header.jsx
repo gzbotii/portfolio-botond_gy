@@ -40,6 +40,7 @@ const Header = () => {
             aria-label="Site logo"
             role="button"
             title="Site logo"
+            data-test="site-logo"
           >
             <img
               className="h-10"
@@ -52,6 +53,7 @@ const Header = () => {
             onClick={toggleClass}
             className="cursor-pointer md:hidden"
             role="button"
+            data-test="hamburger-menu"
           >
             <svg
               className="stroke-dark-heading dark:stroke-white"
@@ -98,6 +100,7 @@ const Header = () => {
                   aria-label="Navigate to Home section"
                   title="Navigate to Home section"
                   role="button"
+                  data-test="nav-home"
                 >
                   Home
                 </Link>
@@ -112,6 +115,7 @@ const Header = () => {
                   aria-label="Navigate to About section"
                   title="Navigate to About section"
                   role="button"
+                  data-test="nav-about"
                 >
                   About
                 </Link>
@@ -126,6 +130,7 @@ const Header = () => {
                   aria-label="Navigate to Technologies section"
                   title="Navigate to Technologies section"
                   role="button"
+                  data-test="nav-technologies"
                 >
                   Technologies
                 </Link>
@@ -154,6 +159,7 @@ const Header = () => {
                   aria-label="Navigate to Contact section"
                   title="Navigate to Contact section"
                   role="button"
+                  data-test="nav-contact"
                 >
                   Contact
                 </Link>
@@ -167,6 +173,7 @@ const Header = () => {
                   rel="noreferrer noopener"
                   alt="LinkedIn"
                   className="group"
+                  data-test="linkedin"
                 >
                   <svg
                     className="dark:fill-light-heading fill-dark-heading transition-all duration-300 group-hover:invert"
@@ -189,6 +196,7 @@ const Header = () => {
                   rel="noreferrer noopener"
                   alt="Instagram"
                   className="group"
+                  data-test="instagram"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -212,6 +220,7 @@ const Header = () => {
                   rel="noreferrer noopener"
                   alt="Github"
                   className="group"
+                  data-test="github"
                 >
                   <svg
                     className="dark:fill-light-heading fill-dark-heading transition-all duration-300 group-hover:invert"

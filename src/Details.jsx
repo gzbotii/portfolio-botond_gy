@@ -62,7 +62,7 @@ export const personalDetails = {
 // Social Media URLs
 export const socialMediaUrl = {
   linkedin: "https://www.linkedin.com/in/gyorgy-botond/",
-  github: "https://www.github.com/",
+  github: "https://www.github.com/gzbottii",
   instagram: "https://www.instagram.com/gzbotii/",
 };
 
