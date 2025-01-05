@@ -60,6 +60,7 @@ function Home() {
       <div className="w-full md:w-7/10 text-left">
         <h1
           ref={h11}
+          data-test="main-heading"
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
           Hi 👋 <br /> My name is{" "}
@@ -69,6 +70,7 @@ function Home() {
         </h1>
         <h2
           ref={h13}
+          data-test="tagline"
           className="pt-8 text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
           {tagline}
@@ -77,6 +79,7 @@ function Home() {
       <div className="w-1/2 md:w-full md:w-3/10 md:max-w-[20%] mt-[10vh] md:mt-0 md:text-left mx-auto md:mx-0 md:ml-10">
         <img
           ref={myImageRef}
+          data-test="profile-image"
           className="rounded-full md:w-auto ml-auto md:ml-0 mr-auto md:mr-auto"
           src={img}
           alt="Profile"
