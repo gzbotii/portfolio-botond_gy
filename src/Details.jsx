@@ -46,13 +46,13 @@ export const personalDetails = {
   img: profile,
   about: (
     <>
-      A Technical Project Director specializing in front-end development,
-      quality assurance, and project management. <br /> Passionate about
-      development, I love collaborating to create intuitive and impactful
-      products, ensuring exceptional results for every project. <br /> I blend
-      technical expertise with strategic thinking to deliver robust and
-      efficient systems. My tech skills includes React, Tailwind CSS, Cypress,
-      and Locust, and data analysis using advanced queries in Excel.
+      A Technical Project Director specializing in web development, quality
+      assurance, and project management. <br /> Passionate about development, I
+      love collaborating to create intuitive and impactful products, ensuring
+      exceptional results for every project. <br /> I blend technical expertise
+      with strategic thinking to deliver robust and efficient systems. My tech
+      skills includes React, Tailwind CSS, Cypress, and Locust, and data
+      analysis using advanced queries in Excel.
     </>
   ),
 };
