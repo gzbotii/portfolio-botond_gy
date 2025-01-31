@@ -315,5 +315,5 @@ export const personalProjectDetails = [
 
 // Contact Details
 export const contactDetails = {
-  email: "hello@botondgyorgy.pro",
+  email: "gzbotii@gmail.com",
 };
