@@ -144,14 +144,14 @@ export const eduDetails = [
     Position: "Commination & PR",
     Company: `Babes-Bolyai University`,
     Location: "Kolozsvár",
-    Type: "Full Time",
+    Type: "BA",
     Duration: "2014 - 2017",
   },
   {
     Position: "Sociology",
     Company: `Babes-Bolyai University`,
     Location: "Kolozsvár",
-    Type: "Full Time",
+    Type: "BA",
     Duration: "2010 - 2013",
   },
 ];
@@ -315,5 +315,5 @@ export const personalProjectDetails = [
 
 // Contact Details
 export const contactDetails = {
-  email: "hello@botondgyorg.pro",
+  email: "hello@botondgyorgy.pro",
 };
