@@ -165,7 +165,7 @@ const Header = () => {
                 </Link>
               </li>
             </ul>
-            <ul className="flex justify-evenly items-center my-10 mx-12 md:my-0 md:space-x-5 md:mr-5">
+            <ul className="flex justify-evenly items-center my-10 md:my-0 md:space-x-5 md:mr-5">
               <li>
                 <a
                   href={linkedin}
