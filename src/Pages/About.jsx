@@ -24,7 +24,7 @@ function About() {
           {personalDetails.about}
         </p>
         <a
-          href="https://www.google.com"
+          href="/Botond_Gyorgy_CV.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
