@@ -120,6 +120,21 @@ const Header = () => {
                   About
                 </Link>
               </li>
+
+              <li className="pb-4 md:pb-0 text-lg">
+                <Link
+                  to="projects"
+                  smooth={true}
+                  duration={500}
+                  onClick={toggleClass}
+                  className="relative font-medium opacity-75 hover:cursor-pointer hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+                  aria-label="Navigate to Projects section"
+                  title="Navigate to Projects section"
+                  role="button"
+                >
+                  Projects
+                </Link>
+              </li>
               <li className="pb-4 md:pb-0 text-lg">
                 <Link
                   to="technologies"
@@ -133,20 +148,6 @@ const Header = () => {
                   data-test="nav-technologies"
                 >
                   Technologies
-                </Link>
-              </li>
-              <li className="pb-4 md:pb-0 text-lg">
-                <Link
-                  to="projects"
-                  smooth={true}
-                  duration={500}
-                  onClick={toggleClass}
-                  className="relative font-medium opacity-75 hover:cursor-pointer hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
-                  aria-label="Navigate to Projects section"
-                  title="Navigate to Projects section"
-                  role="button"
-                >
-                  Projects
                 </Link>
               </li>
               <li className="pb-4 md:pb-0 text-lg">
