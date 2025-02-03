@@ -60,7 +60,7 @@ export const personalDetails = {
 // Social Media URLs
 export const socialMediaUrl = {
   linkedin: "https://www.linkedin.com/in/gyorgy-botond/",
-  github: "https://www.github.com/gzbottii",
+  github: "https://www.github.com/gzbotii",
   instagram: "https://www.instagram.com/gzbotii/",
 };
 
@@ -308,8 +308,8 @@ export const personalProjectDetails = [
     image: projectImage8,
     description: `My first API project: an infinite-scroll gallery fetching Unsplash images. Built with vanilla JS & SCSS, it served as a lessons in performance and dynamic content.`,
     techstack: "JS, API fetch",
-    previewLink: "https://github.com/gzbotii/Animated-card",
-    githubLink: "https://github.com/gzbotii/Animated-card",
+    previewLink: "https://github.com/gzbotii/Infinite-page",
+    githubLink: "https://github.com/gzbotii/Infinite-page",
   },
 ];
 
