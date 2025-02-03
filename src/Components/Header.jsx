@@ -155,8 +155,13 @@ const Header = () => {
                   to="contact"
                   smooth={true}
                   duration={500}
+                  offset={700}
                   onClick={toggleClass}
-                  className="relative font-medium opacity-75 hover:cursor-pointer hover:opacity-100 before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-current before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:duration-300 before:origin-left"
+                  className="relative font-medium opacity-75 hover:cursor-pointer hover:opacity-100 
+             before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
+             before:bottom-0 before:left-0 before:bg-current before:scale-x-0 
+             hover:before:scale-x-100 before:transition-transform before:duration-300 
+             before:origin-left"
                   aria-label="Navigate to Contact section"
                   title="Navigate to Contact section"
                   role="button"
