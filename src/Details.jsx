@@ -40,19 +40,19 @@ export const personalDetails = {
   name: "Botond Gyorgy",
   tagline: (
     <>
-      Technical Project Director. <br /> Passionate Web Developer.
+      Technical Project Manager. <br /> Passionate Web Developer.
     </>
   ),
   img: profile,
   about: (
     <>
-      A Technical Project Director specializing in web development, quality
-      assurance, and project management. <br /> Passionate about development, I
-      love collaborating to create intuitive and impactful products, ensuring
-      exceptional results for every project. <br /> I blend technical expertise
-      with strategic thinking to deliver robust and efficient systems. My tech
-      skills includes React, Tailwind CSS, Cypress, and Locust, and data
-      analysis using advanced queries in Excel.
+      A Technical Project Manager specializing in web development and quality
+      assurance. <br /> Passionate about development, I love collaborating to
+      create intuitive and impactful products, ensuring exceptional results for
+      every project. <br /> I blend technical expertise with strategic thinking
+      to deliver robust and efficient systems. My tech skills includes React,
+      Tailwind CSS, Cypress, and Locust, and data analysis using advanced
+      queries in Excel.
     </>
   ),
 };
