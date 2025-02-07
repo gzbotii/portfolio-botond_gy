@@ -67,7 +67,7 @@ export const socialMediaUrl = {
 // Work Experience and other Experiences
 export const workDetails = [
   {
-    Position: "Technical Project Director",
+    Position: "Technical Project Manager & QA Lead",
     Company: "Octopus Digital",
     Location: "Harghita, Romania",
     Type: "Full Time",
