@@ -69,7 +69,7 @@ export const workDetails = [
   {
     Position: "Technical Project Manager & QA Lead",
     Company: "Octopus Digital",
-    Location: "Harghita, Romania",
+    Location: "Gheorgheni, Romania",
     Type: "Full Time",
     Duration: "Aug 2024 - Present",
   },
@@ -85,7 +85,7 @@ export const workDetails = [
     Company: "Matter Of Form",
     Location: "London - Hybrid",
     Type: "Part Time",
-    Duration: "Nov 2020 - Dec 2021",
+    Duration: "Oct 2021 - Dec 2023",
   },
   {
     Position: "Junior Project Manager",
@@ -123,18 +123,11 @@ export const workDetails = [
     Duration: "Aug 2017 - Apr 2018",
   },
   {
-    Position: "Customer Service Representative",
+    Position: "Customer Service Representative for Motorola - Lenovo",
     Company: "Foundever",
     Location: "Budapest, Hungary",
     Type: "Full Time",
     Duration: "May 2017 - Aug 2017",
-  },
-  {
-    Position: "Social Media Coordinator",
-    Company: "Pizzeria D'autore",
-    Location: "Cluj-Napoca, Cluj, Romania",
-    Type: "Part Time",
-    Duration: "Aug 2017 - Apr 2018",
   },
 ];
 
