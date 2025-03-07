@@ -28,6 +28,7 @@ import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
 import projectImage7 from "./assets/projects/project7.jpg";
 import projectImage8 from "./assets/projects/project8.jpg";
+import projectImage9 from "./assets/projects/project9.jpg";
 
 // Logos
 export const logos = {
@@ -295,6 +296,14 @@ export const personalProjectDetails = [
     techstack: "JS, GSAP, API fetch, SCSS",
     previewLink: "https://mountains-ski-resort.netlify.app/",
     githubLink: "https://github.com/gzbotii/Hargita-Mountains-Ski-Resort",
+  },
+  {
+    title: "Office Heating logger",
+    image: projectImage9,
+    description: `A logger app built with React and Firebase that automatically adds the date and time to entries upon button press, saving the data into a Firebase database.`,
+    techstack: "Firebase DB, React",
+    previewLink: "https://ocotpus-office-heating.netlify.app/",
+    githubLink: "https://github.com/gzbotii/Officr-Heating-Check-in",
   },
   {
     title: "Infinite Scroll for Unsplash",
