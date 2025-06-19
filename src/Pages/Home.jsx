@@ -64,7 +64,7 @@ function Home() {
           data-test="main-heading"
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
-          Hi 👋 <br /> My name is{" "}
+          Hi 👋 <br /> My name is
           <span ref={h12} className="bg-clip-text bg-gradient text-transparent">
             {name}
           </span>
