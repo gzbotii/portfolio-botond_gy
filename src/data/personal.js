@@ -4,11 +4,7 @@ import profile from "../assets/profile.jpg";
 // Personal Details
 export const personalDetails = {
   name: "Botond Gyorgy",
-  tagline: (
-    <>
-      Technical Project Manager. <br /> Passionate Web Developer.
-    </>
-  ),
+  tagline: <>Passionate Web Developer <br> Crafting digital experiences </>,
   img: profile,
   about: (
     <>

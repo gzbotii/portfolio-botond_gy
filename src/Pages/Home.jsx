@@ -5,52 +5,53 @@ import {personalDetails} from "../data/personal";
 function Home() {
   const {name, tagline, img} = personalDetails;
 
-  // Refs for animation
-  const h11 = useRef(null);
-  const h12 = useRef(null);
-  const h13 = useRef(null);
-  const myImageRef = useRef(null);
+  // Better ref names
+  const greetingRef = useRef(null);
+  const nameRef = useRef(null);
+  const taglineRef = useRef(null);
+  const profileImageRef = useRef(null);
 
   useEffect(() => {
-    const tl = gsap.timeline();
+    const timeline = gsap.timeline();
 
-    tl.set(h11.current, {opacity: 0}) // Set initial state
-      .from(h11.current, {
-        x: "-100%",
+    // Animation config
+    const duration = 1.5;
+    const ease = "power3.out";
+
+    // Set initial states
+    timeline
+      .set([greetingRef.current, nameRef.current, taglineRef.current], {
         opacity: 0,
-        duration: 2,
-        ease: "Power3.easeOut",
+        x: "-100%",
       })
-      .from(
-        h12.current,
+      .set(profileImageRef.current, {
+        opacity: 0,
+        x: "200%",
+      })
+      // Animate text elements together
+      .to([greetingRef.current, nameRef.current, taglineRef.current], {
+        x: 0,
+        opacity: 1,
+        duration,
+        ease,
+        stagger: 0.1,
+      })
+      // Animate image simultaneously
+      .to(
+        profileImageRef.current,
         {
-          x: "-100%",
-          opacity: 0,
-          duration: 2,
-          ease: "Power3.easeOut",
-        },
-        "<"
-      )
-      .from(
-        h13.current,
-        {
-          x: "-100%",
-          opacity: 0,
-          duration: 2,
-          ease: "Power3.easeOut",
-        },
-        "<"
-      )
-      .from(
-        myImageRef.current,
-        {
-          x: "200%",
-          opacity: 0,
-          duration: 2,
-          ease: "Power3.easeOut",
+          x: 0,
+          opacity: 1,
+          duration,
+          ease,
         },
         "<"
       );
+
+    // Cleanup function
+    return () => {
+      timeline.kill();
+    };
   }, []);
 
   return (
@@ -60,17 +61,20 @@ function Home() {
     >
       <div className="w-full md:w-7/10 text-left">
         <h1
-          ref={h11}
+          ref={greetingRef}
           data-test="main-heading"
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
-          Hi 👋 <br /> My name is
-          <span ref={h12} className="bg-clip-text bg-gradient text-transparent">
+          Hi 👋 <br /> My name is{" "}
+          <span
+            ref={nameRef}
+            className="bg-clip-text bg-gradient text-transparent"
+          >
             {name}
           </span>
         </h1>
         <h2
-          ref={h13}
+          ref={taglineRef}
           data-test="tagline"
           className="pt-8 text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
@@ -79,7 +83,7 @@ function Home() {
       </div>
       <div className="w-1/2 md:w-full md:w-3/10 md:max-w-[20%] mt-[10vh] md:mt-0 md:text-left mx-auto md:mx-0 md:ml-10">
         <img
-          ref={myImageRef}
+          ref={profileImageRef}
           data-test="profile-image"
           className="rounded-full md:w-auto ml-auto md:ml-0 mr-auto md:mr-auto"
           src={img}
