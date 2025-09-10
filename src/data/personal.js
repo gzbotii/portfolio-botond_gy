@@ -4,17 +4,23 @@ import profile from "../assets/profile.jpg";
 // Personal Details
 export const personalDetails = {
   name: "Botond Gyorgy",
-  tagline: <>Passionate Web Developer <br> Crafting digital experiences </>,
+  tagline: (
+    <>
+      Passionate Web Developer <br /> Crafting digital experiences{" "}
+    </>
+  ),
   img: profile,
   about: (
     <>
-      A Technical Project Manager specializing in web development and quality
-      assurance. <br /> Passionate about development, I love collaborating to
-      create intuitive and impactful products, ensuring exceptional results for
-      every project. <br /> I blend technical expertise with strategic thinking
-      to deliver robust and efficient systems. My tech skills includes React,
-      Tailwind CSS, Cypress, and Locust, and data analysis using advanced
-      queries in Excel.
+      I'm a passionate web developer who loves crafting robust, efficient, and
+      impactful solutions. <br />
+      My journey in IT began in QA and later as a Technical Project Lead, which
+      gave me a sharp eye for quality, detail, and collaboration. <br />
+      Today, I work with <strong>React</strong>, <strong>Tailwind</strong>, a
+      pinch of <strong>Vue</strong> and <strong>TypeScript</strong>. On the
+      testing side, I use <strong>Cypress</strong> and <strong>Locust</strong>,
+      and I also dive into data analysis with advanced <strong>Excel</strong>{" "}
+      queries.
     </>
   ),
 };
