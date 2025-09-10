@@ -1,6 +1,6 @@
 import React, {useRef, useEffect} from "react";
 import gsap from "gsap";
-import {personalDetails} from "../Details";
+import {personalDetails} from "../data/personal";
 
 function Home() {
   const {name, tagline, img} = personalDetails;

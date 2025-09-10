@@ -1,5 +1,5 @@
 import React from "react";
-import {contactDetails} from "../Details";
+import {contactDetails} from "../data/personal";
 
 function Contact() {
   const {email} = contactDetails;

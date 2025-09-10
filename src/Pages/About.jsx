@@ -1,11 +1,7 @@
 import React from "react";
 import Work from "../Components/Work";
-import {
-  personalDetails,
-  workDetails,
-  eduDetails,
-  courseDetails,
-} from "../Details";
+import {personalDetails} from "../data/personal";
+import {workDetails, eduDetails, courseDetails} from "../data/work";
 
 function About() {
   return (

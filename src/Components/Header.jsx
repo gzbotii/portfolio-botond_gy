@@ -1,6 +1,6 @@
 import React, {useState, useRef, useEffect} from "react";
 import {Link} from "react-scroll";
-import {socialMediaUrl} from "../Details";
+import {socialMediaUrl} from "../data/personal";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
