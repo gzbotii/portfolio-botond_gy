@@ -18,6 +18,8 @@ import jira from "../assets/techstack/jira.png";
 import gsheet from "../assets/techstack/gsheet.png";
 import gsap from "../assets/techstack/gsap.png";
 import js from "../assets/techstack/js.png";
+import ts from "../assets/techstack/ts.png";
+import vue from "../assets/techstack/vue.png";
 
 // Logos
 export const logos = {
@@ -42,4 +44,6 @@ export const techStackDetails = {
   gsheet,
   gsap,
   js,
+  ts,
+  vue,
 };

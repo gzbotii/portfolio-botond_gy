@@ -18,6 +18,8 @@ function Technologies() {
     gsheet,
     gsap,
     js,
+    vue,
+    ts,
   } = techStackDetails;
   return (
     <main
@@ -34,6 +36,8 @@ function Technologies() {
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
         <img src={react} title="React" alt="react" className="md:h-24" />
+        <img src={ts} title="TypeScript" alt="TypeScript" className="md:h-24" />
+        <img src={vue} title="Vue.js" alt="vue.js" className="md:h-24" />
         <img src={js} title="JS" alt="JavaScript" className="md:h-24" />
         <img src={gsap} title="GSAP" alt="GSAP" className="md:h-24" />
         <img
