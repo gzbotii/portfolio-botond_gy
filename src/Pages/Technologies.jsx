@@ -32,7 +32,7 @@ function Technologies() {
           Technologies I've been working with recently
         </p>
       </section>
-      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6 [&_img]:h-16 [&_img]:md:h-20 [&_img]:w-auto">
+      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6 [&_img]:h-16 [&_img]:md:h-20 [&_img]:w-16 [&_img]:md:w-20 [&_img]:object-cover [&_img]:rounded-lg">
         <img src={react} title="React" alt="react" />
         <img src={ts} title="TypeScript" alt="TypeScript" />
         <img src={vue} title="Vue.js" alt="vue.js" />
@@ -49,7 +49,7 @@ function Technologies() {
           Tools
         </h5>
       </section>
-      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6 [&_img]:h-16 [&_img]:md:h-20 [&_img]:w-auto">
+      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6 [&_img]:h-16 [&_img]:md:h-20 [&_img]:w-16 [&_img]:md:w-20 [&_img]:object-cover [&_img]:rounded-lg">
         <img src={vscode} title="Visual Studio Code" alt="" />
         <img src={github} title="Github" alt="Github" />
         {/* <img src={chatgpt} title="ChatGPT" alt="ChatGPT" /> */}
