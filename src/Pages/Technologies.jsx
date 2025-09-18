@@ -9,6 +9,7 @@ function Technologies() {
     cypress,
     selenium,
     vscode,
+    chatgpt,
     github,
     locust,
     postman,
@@ -32,31 +33,40 @@ function Technologies() {
           Technologies I've been working with recently
         </p>
       </section>
-      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6 [&_img]:w-16 [&_img]:h-16 [&_img]:object-contain">
-        <img src={react} title="React" alt="react" />
-        <img src={ts} title="TypeScript" alt="TypeScript" />
-        <img src={vue} title="Vue.js" alt="vue.js" />
-        {/* <img src={js} title="JS" alt="JavaScript" /> */}
-        <img src={gsap} title="GSAP" alt="GSAP" />
-        <img src={cypress} title="Cypress" alt="cypress" />
-        <img src={locust} title="Locust" alt="locust" />
-        <img src={tailwind} title="Tailwind CSS" alt="tailwind css" />
-        <img src={selenium} title="Selenium" alt="Selenium" />
-        <img src={python} title="Python" alt="Python" />
+      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
+        <img src={react} title="React" alt="" className="md:h-24" />
+        <img src={ts} title="TypeScript" alt="TypeScript" className="md:h-24" />
+        <img src={vue} title="Vue.js" alt="vue.js" className="md:h-24" />
+        <img src={gsap} title="GSAP" alt="GSAP" className="md:h-24" />
+        <img src={cypress} title="Cypress" alt="" className="md:h-24" />
+        <img src={locust} title="Locust" alt="" className="md:h-24" />
+        <img src={tailwind} title="Tailwind CSS" alt="" className="md:h-24" />
+        <img src={selenium} title="Selenium" alt="" className="md:h-24" />
+        <img src={python} title="Python" alt="" className="md:h-24" />
       </section>
       <section>
         <h5 className="text-2xl pt-10 md:pt-24 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Tools
         </h5>
       </section>
-      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6 [&_img]:w-16 [&_img]:h-16 [&_img]:object-contain">
-        <img src={vscode} title="Visual Studio Code" alt="" />
-        <img src={github} title="Github" alt="Github" />
-        {/* <img src={chatgpt} title="ChatGPT" alt="ChatGPT" /> */}
-        <img src={figma} title="Figma" alt="Figma" />
-        <img src={jira} title="Jira" alt="Jira" />
-        <img src={postman} title="Postman" alt="Postman" />
-        <img src={gsheet} title="Google Sheet" alt="Google Sheet" />
+      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
+        <img
+          src={vscode}
+          title="Visual Studio Code"
+          alt=""
+          className="md:h-24"
+        />
+        <img src={github} title="Github" alt="Github" className="md:h-24" />
+        <img src={chatgpt} title="ChatGPT" alt="ChatGPT" className="md:h-24" />
+        <img src={figma} title="Figma" alt="Figma" className="md:h-24" />
+        <img src={jira} title="Jira" alt="Jira" className="md:h-24" />
+        <img src={postman} title="Postman" alt="Postman" className="md:h-24" />
+        <img
+          src={gsheet}
+          title="Google Sheet"
+          alt="Google Sheet"
+          className="md:h-24"
+        />
       </section>
     </main>
   );
