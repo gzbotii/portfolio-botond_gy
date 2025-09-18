@@ -1,9 +1,9 @@
-import React, {useRef, useEffect} from "react";
-import gsap from "gsap";
-import {personalDetails} from "../data/personal";
+import React, { useRef, useEffect } from 'react';
+import gsap from 'gsap';
+import { personalDetails } from '../data/personal';
 
 function Home() {
-  const {name, tagline, img} = personalDetails;
+  const { name, tagline, img } = personalDetails;
 
   // Better ref names
   const greetingRef = useRef(null);
@@ -16,17 +16,17 @@ function Home() {
 
     // Animation config
     const duration = 1.5;
-    const ease = "power3.out";
+    const ease = 'power3.out';
 
     // Set initial states
     timeline
       .set([greetingRef.current, nameRef.current, taglineRef.current], {
         opacity: 0,
-        x: "-100%",
+        x: '-100%',
       })
       .set(profileImageRef.current, {
         opacity: 0,
-        x: "200%",
+        x: '200%',
       })
       // Animate text elements together
       .to([greetingRef.current, nameRef.current, taglineRef.current], {
@@ -45,7 +45,7 @@ function Home() {
           duration,
           ease,
         },
-        "<"
+        '<'
       );
 
     // Cleanup function
@@ -65,7 +65,7 @@ function Home() {
           data-test="main-heading"
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
-          Hi 👋 <br /> My name is{" "}
+          Hi 👋 <br /> My name is{' '}
           <span
             ref={nameRef}
             className="bg-clip-text bg-gradient text-transparent"

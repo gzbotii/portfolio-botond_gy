@@ -1,6 +1,6 @@
-import React from "react";
-import Project from "../Components/Project";
-import {projectDetails, personalProjectDetails} from "../data/projects";
+import React from 'react';
+import Project from '../Components/Project';
+import { projectDetails, personalProjectDetails } from '../data/projects';
 
 function Projects() {
   return (

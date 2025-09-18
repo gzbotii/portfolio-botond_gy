@@ -1,12 +1,12 @@
 // Profile Image
-import profile from "../assets/profile.jpg";
+import profile from '../assets/profile.jpg';
 
 // Personal Details
 export const personalDetails = {
-  name: "Botond Gyorgy",
+  name: 'Botond Gyorgy',
   tagline: (
     <>
-      Passionate Web Developer. <br /> Crafting digital experiences.
+      Passionate Web Developer. <br /> Senior QA Analyst.
     </>
   ),
   img: profile,
@@ -19,7 +19,7 @@ export const personalDetails = {
       Today, I work with <strong>React</strong>, <strong>Tailwind</strong>, a
       pinch of <strong>Vue</strong> and <strong>TypeScript</strong>. On the
       testing side, I use <strong>Cypress</strong> and <strong>Locust</strong>,
-      and I also dive into data analysis with advanced <strong>Excel</strong>{" "}
+      and I also dive into data analysis with advanced <strong>Excel</strong>{' '}
       queries.
     </>
   ),
@@ -27,12 +27,12 @@ export const personalDetails = {
 
 // Social Media URLs
 export const socialMediaUrl = {
-  linkedin: "https://www.linkedin.com/in/gyorgy-botond/",
-  github: "https://www.github.com/gzbotii",
-  instagram: "https://www.instagram.com/gzbotii/",
+  linkedin: 'https://www.linkedin.com/in/gyorgy-botond/',
+  github: 'https://www.github.com/gzbotii',
+  instagram: 'https://www.instagram.com/gzbotii/',
 };
 
 // Contact Details
 export const contactDetails = {
-  email: "hello@botondgyorgy.pro",
+  email: 'hello@botondgyorgy.pro',
 };

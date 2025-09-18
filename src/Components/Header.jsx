@@ -1,15 +1,15 @@
-import React, {useState, useRef, useEffect} from "react";
-import {Link} from "react-scroll";
-import {socialMediaUrl} from "../data/personal";
+import React, { useState, useRef, useEffect } from 'react';
+import { Link } from 'react-scroll';
+import { socialMediaUrl } from '../data/personal';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const navRef = useRef(null);
   const hamburgerRef = useRef(null);
-  const {linkedin, github, instagram} = socialMediaUrl;
+  const { linkedin, github, instagram } = socialMediaUrl;
 
   useEffect(() => {
-    const handleClickOutside = (event) => {
+    const handleClickOutside = event => {
       if (!navRef.current || !hamburgerRef.current) return;
       if (
         !navRef.current.contains(event.target) &&
@@ -20,8 +20,8 @@ const Header = () => {
       }
     };
 
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
   }, [isOpen]);
 
   const toggleClass = () => {
@@ -44,7 +44,7 @@ const Header = () => {
           >
             <img
               className="h-10"
-              src={require("../assets/gzbotii.png")}
+              src={require('../assets/gzbotii.png')}
               alt="logo"
             />
           </Link>
@@ -78,8 +78,8 @@ const Header = () => {
               md:flex md:items-center
               ${
                 isOpen
-                  ? "translate-y-0 opacity-100 visible max-h-[800px]"
-                  : "translate-y-[-10px] opacity-0 invisible max-h-0"
+                  ? 'translate-y-0 opacity-100 visible max-h-[800px]'
+                  : 'translate-y-[-10px] opacity-0 invisible max-h-0'
               }
               transform transition-all duration-300 ease-in-out
               md:transform-none md:transition-none md:opacity-100 md:visible md:max-h-full

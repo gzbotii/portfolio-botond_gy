@@ -1,7 +1,7 @@
-import React from "react";
-import Work from "../Components/Work";
-import {personalDetails} from "../data/personal";
-import {workDetails, eduDetails, courseDetails} from "../data/work";
+import React from 'react';
+import Work from '../Components/Work';
+import { personalDetails } from '../data/personal';
+import { workDetails, eduDetails, courseDetails } from '../data/work';
 
 function About() {
   return (
@@ -44,7 +44,7 @@ function About() {
         </h4>
 
         {React.Children.toArray(
-          workDetails.map(({Position, Company, Location, Type, Duration}) => (
+          workDetails.map(({ Position, Company, Location, Type, Duration }) => (
             <Work
               position={Position}
               company={Company}
@@ -61,7 +61,7 @@ function About() {
         </h4>
 
         {React.Children.toArray(
-          eduDetails.map(({Position, Company, Location, Type, Duration}) => (
+          eduDetails.map(({ Position, Company, Location, Type, Duration }) => (
             <Work
               position={Position}
               company={Company}
@@ -77,15 +77,17 @@ function About() {
           Courses
         </h5>
         {React.Children.toArray(
-          courseDetails.map(({Position, Company, Location, Type, Duration}) => (
-            <Work
-              position={Position}
-              company={Company}
-              location={Location}
-              type={Type}
-              duration={Duration}
-            />
-          ))
+          courseDetails.map(
+            ({ Position, Company, Location, Type, Duration }) => (
+              <Work
+                position={Position}
+                company={Company}
+                location={Location}
+                type={Type}
+                duration={Duration}
+              />
+            )
+          )
         )}
       </section>
     </main>

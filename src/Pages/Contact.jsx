@@ -1,8 +1,8 @@
-import React from "react";
-import {contactDetails} from "../data/personal";
+import React from 'react';
+import { contactDetails } from '../data/personal';
 
 function Contact() {
-  const {email} = contactDetails;
+  const { email } = contactDetails;
   return (
     <main
       id="contact"
