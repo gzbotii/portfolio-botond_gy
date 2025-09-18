@@ -32,31 +32,81 @@ function Technologies() {
           Technologies I've been working with recently
         </p>
       </section>
-      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6 [&_img]:h-16 [&_img]:md:h-20 [&_img]:w-16 [&_img]:md:w-20 [&_img]:object-cover [&_img]:rounded-lg">
-        <img src={react} title="React" alt="react" />
-        <img src={ts} title="TypeScript" alt="TypeScript" />
-        <img src={vue} title="Vue.js" alt="vue.js" />
+      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
+        <img src={react} title="React" alt="react" className="logo-uniform" />
+        <img
+          src={ts}
+          title="TypeScript"
+          alt="TypeScript"
+          className="logo-uniform"
+        />
+        <img src={vue} title="Vue.js" alt="vue.js" className="logo-uniform" />
         {/* <img src={js} title="JS" alt="JavaScript" /> */}
-        <img src={gsap} title="GSAP" alt="GSAP" />
-        <img src={cypress} title="Cypress" alt="cypress" />
-        <img src={locust} title="Locust" alt="locust" />
-        <img src={tailwind} title="Tailwind CSS" alt="tailwind css" />
-        <img src={selenium} title="Selenium" alt="Selenium" />
-        <img src={python} title="Python" alt="Python" />
+        <img src={gsap} title="GSAP" alt="GSAP" className="logo-uniform" />
+        <img
+          src={cypress}
+          title="Cypress"
+          alt="cypress"
+          className="logo-uniform"
+        />
+        <img
+          src={locust}
+          title="Locust"
+          alt="locust"
+          className="logo-uniform"
+        />
+        <img
+          src={tailwind}
+          title="Tailwind CSS"
+          alt="tailwind css"
+          className="logo-uniform"
+        />
+        <img
+          src={selenium}
+          title="Selenium"
+          alt="Selenium"
+          className="logo-uniform"
+        />
+        <img
+          src={python}
+          title="Python"
+          alt="Python"
+          className="logo-uniform"
+        />
       </section>
       <section>
         <h5 className="text-2xl pt-10 md:pt-24 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Tools
         </h5>
       </section>
-      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6 [&_img]:h-16 [&_img]:md:h-20 [&_img]:w-16 [&_img]:md:w-20 [&_img]:object-cover [&_img]:rounded-lg">
-        <img src={vscode} title="Visual Studio Code" alt="" />
-        <img src={github} title="Github" alt="Github" />
+      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
+        <img
+          src={vscode}
+          title="Visual Studio Code"
+          alt=""
+          className="logo-uniform"
+        />
+        <img
+          src={github}
+          title="Github"
+          alt="Github"
+          className="logo-uniform"
+        />
         {/* <img src={chatgpt} title="ChatGPT" alt="ChatGPT" /> */}
-        <img src={figma} title="Figma" alt="Figma" />
-        <img src={jira} title="Jira" alt="Jira" />
-        <img src={postman} title="Postman" alt="Postman" />
-        <img src={gsheet} title="Google Sheet" alt="Google Sheet" />
+        <img src={figma} title="Figma" alt="Figma" className="logo-uniform" />
+        <img src={jira} title="Jira" alt="Jira" className="logo-uniform" />
+        <img
+          src={postman}
+          title="Postman"
+          alt="Postman"
+          className="logo-uniform"
+        />
+        <img
+          src={gsheet}
+          title="Google Sheet"
+          alt="Google Sheet"
+          className="logo-uniform"
+        />
       </section>
     </main>
   );

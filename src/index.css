@@ -25,3 +25,10 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+
+.logo-uniform {
+  width: 84px !important;
+  height: 84px !important;
+  object-fit: fill !important;
+  border-radius: 8px;
+}
