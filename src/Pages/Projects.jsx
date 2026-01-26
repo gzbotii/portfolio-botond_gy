@@ -16,57 +16,55 @@ function Projects() {
           expertise, and attention to detail.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10">
-          {React.Children.toArray(
-            projectDetails.map(
-              ({
-                title,
-                image,
-                description,
-                techstack,
-                previewLink,
-                githubLink,
-              }) => (
-                <Project
-                  title={title}
-                  image={image}
-                  description={description}
-                  techstack={techstack}
-                  previewLink={previewLink}
-                  githubLink={githubLink}
-                />
-              )
+          {projectDetails.map(
+            ({
+              title,
+              image,
+              description,
+              techstack,
+              previewLink,
+              githubLink,
+            }) => (
+              <Project
+                key={title}
+                title={title}
+                image={image}
+                description={description}
+                techstack={techstack}
+                previewLink={previewLink}
+                githubLink={githubLink}
+              />
             )
           )}
         </div>
       </section>
       <section>
         <h3 className="text-2xl text-dark-heading section dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-          Perosnal Projects
+          Personal Projects
         </h3>
         <p className="text-content py-8 lg:max-w-3xl">
           Exploring new technologies and honing my skills, these projects
           reflect my journey in web development and a passion for learning.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10">
-          {React.Children.toArray(
-            personalProjectDetails.map(
-              ({
-                title,
-                image,
-                description,
-                techstack,
-                previewLink,
-                githubLink,
-              }) => (
-                <Project
-                  title={title}
-                  image={image}
-                  description={description}
-                  techstack={techstack}
-                  previewLink={previewLink}
-                  githubLink={githubLink}
-                />
-              )
+          {personalProjectDetails.map(
+            ({
+              title,
+              image,
+              description,
+              techstack,
+              previewLink,
+              githubLink,
+            }) => (
+              <Project
+                key={title}
+                title={title}
+                image={image}
+                description={description}
+                techstack={techstack}
+                previewLink={previewLink}
+                githubLink={githubLink}
+              />
             )
           )}
         </div>

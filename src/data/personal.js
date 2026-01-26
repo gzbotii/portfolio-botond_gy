@@ -6,7 +6,7 @@ export const personalDetails = {
   name: 'Botond Gyorgy',
   tagline: (
     <>
-      Passionate Web Developer. <br /> Ddicated IT professional.
+      Passionate Web Developer. <br /> Dedicated IT professional.
     </>
   ),
   img: profile,

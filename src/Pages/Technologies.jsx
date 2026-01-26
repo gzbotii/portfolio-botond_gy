@@ -34,15 +34,15 @@ function Technologies() {
         </p>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-        <img src={react} title="React" alt="" className="md:h-24" />
-        <img src={ts} title="TypeScript" alt="TypeScript" className="md:h-24" />
-        <img src={vue} title="Vue.js" alt="vue.js" className="md:h-24" />
-        <img src={gsap} title="GSAP" alt="GSAP" className="md:h-24" />
-        <img src={cypress} title="Cypress" alt="" className="md:h-24" />
-        <img src={locust} title="Locust" alt="" className="md:h-24" />
-        <img src={tailwind} title="Tailwind CSS" alt="" className="md:h-24" />
-        <img src={selenium} title="Selenium" alt="" className="md:h-24" />
-        <img src={python} title="Python" alt="" className="md:h-24" />
+        <img src={react} title="React" alt="React logo" className="md:h-24" />
+        <img src={ts} title="TypeScript" alt="TypeScript logo" className="md:h-24" />
+        <img src={vue} title="Vue.js" alt="Vue.js logo" className="md:h-24" />
+        <img src={gsap} title="GSAP" alt="GSAP logo" className="md:h-24" />
+        <img src={cypress} title="Cypress" alt="Cypress logo" className="md:h-24" />
+        <img src={locust} title="Locust" alt="Locust logo" className="md:h-24" />
+        <img src={tailwind} title="Tailwind CSS" alt="Tailwind CSS logo" className="md:h-24" />
+        <img src={selenium} title="Selenium" alt="Selenium logo" className="md:h-24" />
+        <img src={python} title="Python" alt="Python logo" className="md:h-24" />
       </section>
       <section>
         <h5 className="text-2xl pt-10 md:pt-24 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
@@ -53,18 +53,18 @@ function Technologies() {
         <img
           src={vscode}
           title="Visual Studio Code"
-          alt=""
+          alt="Visual Studio Code logo"
           className="md:h-24"
         />
-        <img src={github} title="Github" alt="Github" className="md:h-24" />
-        <img src={chatgpt} title="ChatGPT" alt="ChatGPT" className="md:h-24" />
-        <img src={figma} title="Figma" alt="Figma" className="md:h-24" />
-        <img src={jira} title="Jira" alt="Jira" className="md:h-24" />
-        <img src={postman} title="Postman" alt="Postman" className="md:h-24" />
+        <img src={github} title="Github" alt="GitHub logo" className="md:h-24" />
+        <img src={chatgpt} title="ChatGPT" alt="ChatGPT logo" className="md:h-24" />
+        <img src={figma} title="Figma" alt="Figma logo" className="md:h-24" />
+        <img src={jira} title="Jira" alt="Jira logo" className="md:h-24" />
+        <img src={postman} title="Postman" alt="Postman logo" className="md:h-24" />
         <img
           src={gsheet}
           title="Google Sheet"
-          alt="Google Sheet"
+          alt="Google Sheets logo"
           className="md:h-24"
         />
       </section>

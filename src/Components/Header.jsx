@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import { socialMediaUrl } from '../data/personal';
+import logo from '../assets/gzbotii.png';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,7 +45,7 @@ const Header = () => {
           >
             <img
               className="h-10"
-              src={require('../assets/gzbotii.png')}
+              src={logo}
               alt="logo"
             />
           </Link>
@@ -177,7 +178,7 @@ const Header = () => {
                   href={linkedin}
                   target="_blank"
                   rel="noreferrer noopener"
-                  alt="LinkedIn"
+                  aria-label="LinkedIn"
                   className="group"
                   data-test="linkedin"
                 >
@@ -200,7 +201,7 @@ const Header = () => {
                   href={instagram}
                   target="_blank"
                   rel="noreferrer noopener"
-                  alt="Instagram"
+                  aria-label="Instagram"
                   className="group"
                   data-test="instagram"
                 >
@@ -224,7 +225,7 @@ const Header = () => {
                   href={github}
                   target="_blank"
                   rel="noreferrer noopener"
-                  alt="Github"
+                  aria-label="GitHub"
                   className="group"
                   data-test="github"
                 >

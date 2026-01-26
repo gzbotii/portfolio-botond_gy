@@ -12,6 +12,16 @@ function Home() {
   const profileImageRef = useRef(null);
 
   useEffect(() => {
+    // Check if refs exist before animating
+    if (
+      !greetingRef.current ||
+      !nameRef.current ||
+      !taglineRef.current ||
+      !profileImageRef.current
+    ) {
+      return;
+    }
+
     const timeline = gsap.timeline();
 
     // Animation config
